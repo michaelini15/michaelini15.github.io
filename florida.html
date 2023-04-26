@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo-map.svg">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+
+            <div class="title"> Bucket List Hikes</div>
+            <div class="navbar">
+            <ul class="navbar-nav mr-auto mt-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About 
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact 
+                    </a>
+                </li>
+
+            </ul>
+            </div>
+
+        </nav>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+
+            <div class="hero4">
+            <br>
+            <br>
+            <h4 class="about">Florida Bucket List Hikes</h4>
+            <br>
+            <div class="map">
+                <img src="images/map.svg" alt="" srcset="">
+            </div>
+            <ul>
+                <p>1. Lovers Key State Park - Fort Myers Beach</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2021/01/lovers-key-state-park.jpg" alt="lovers key image">
+                <h7><br>jav906/Tripadvisor</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=lovers+key+state+park+florida&tbm=isch&hl=en&sa=X&ved=2ahUKEwjbuLK_3bT-AhXOhu4BHZ71BAAQBXoECAEQRQ&biw=1349&bih=625', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/florida/lovers-key-eagle-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>2. Pine Island - Blue Springs State Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2021/01/20181217-125327-largejpg-700x394-1.jpg" alt="pine island image">
+                <h7><br>Roxanne A/Tripadvisor</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=pine+island+trail+blue+spring+state+park&tbm=isch&ved=2ahUKEwiCyv3u3bT-AhUAh-4BHRuKBnYQ2-cCegQIABAA&oq=pine+island+trail+blue+spring+state+park&gs_lcp=CgNpbWcQAzoECCMQJzoHCAAQGBCABFD7ClieKWC_LWgAcAB4AYAB7wKIAdoSkgEIMTguMy4xLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=xjs_ZILPNYCOur8Pm5SasAc&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/florida/pine-island-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>3. Rainbow Springs - Rainbow Spings State Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2021/01/Screen-Shot-2021-01-27-at-10.51.10-AM.png" alt="rainbow springs image">
+                <h7><br>Margie Kinder/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=rainbow+springs+state+park+florida&tbm=isch&ved=2ahUKEwjJiJvJ3rT-AhUPiO4BHaMKAfoQ2-cCegQIABAA&oq=rainbow+springs+state+park+flo&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQCBAeMgYIABAIEB46BAgjECc6BAgAEB46BwgAEBgQgARQ0wNY-AdgvhNoAHAAeAGAAfMCiAGzBZIBBTQuMy0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=hDw_ZMm2Bo-Qur8Po5WE0A8&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/florida/rainbow-springs-white-and-yellow-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

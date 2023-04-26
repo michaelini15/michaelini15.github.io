@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo-map.svg">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+
+            <div class="title"> Bucket List Hikes</div>
+            <div class="navbar">
+            <ul class="navbar-nav mr-auto mt-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About 
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact 
+                    </a>
+                </li>
+
+            </ul>
+            </div>
+
+        </nav>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Massachusetts Bucket List Hikes</h4>
+            <br>
+            <div class="map">
+                <img src="images/map.svg" alt="" srcset="">
+            </div>
+            <ul>
+                <p>1. Gates Pond - Berlin</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/10/5400741809_45cf435919_b.jpg" alt="gates pond image">
+                <h7><br>dee & tula monstah/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=gates+pond+berlin+ma&tbm=isch&ved=2ahUKEwjNtaCQyrb-AhXgPEQIHVUyCQ0Q2-cCegQIABAA&oq=gates+pond+ma&gs_lcp=CgNpbWcQARgBMgYIABAIEB4yBggAEAgQHjoECCMQJzoECAAQHjoFCAAQgAQ6CAgAEIAEELEDOgcIABCKBRBDOgoIABCKBRCxAxBDOgsIABCABBCxAxCDAToGCAAQBRAeOgcIABAYEIAEUKgKWIUeYOExaABwAHgAgAFliAHvCJIBBDEzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=gzNAZI3oGeD5kPIP1eSkaA&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/massachusetts/gates-pond', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>2. The Great Blue Hill - Milton</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/10/Great-Blue-HIll1.jpeg" alt="blue hill image">
+                <h7><br>Monique Monopoli/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=great+blue+hill+massachusetts&tbm=isch&ved=2ahUKEwiPk7Kryrb-AhUsPUQIHQb2Cs8Q2-cCegQIABAA&oq=great+blue+hill+&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBAgAEB4yBggAEAUQHjIGCAAQCBAeMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEOgQIIxAnOgcIABCKBRBDOggIABCABBCxAzoKCAAQigUQsQMQQzoLCAAQgAQQsQMQgwFQiwdY_R1g3yxoAHAAeACAAW2IAcIKkgEEMTUuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=vDNAZI_FFKz6kPIPhuyr-Aw&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/massachusetts/great-blue-hill-via-skyline-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

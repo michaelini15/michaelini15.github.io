@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo-map.svg">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+
+            <div class="title"> Bucket List Hikes</div>
+            <div class="navbar">
+            <ul class="navbar-nav mr-auto mt-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About 
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact 
+                    </a>
+                </li>
+
+            </ul>
+            </div>
+
+        </nav>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Tennessee Bucket List Hikes</h4>
+            <br>
+            <div class="map">
+                <img src="images/map.svg" alt="" srcset="">
+            </div>
+            <ul>
+                <p>1. Charlies Bunion - Great Smokey Mountains National Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/02/National-Park-Services-Official-Website.jpeg" alt="charlies bunion image">
+                <h7><br>National Park Services Official Website</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=charlies+bunion+tennessee&sxsrf=APwXEddUcg1cmix_PvQUUPS4DX79yjgnhA:1682017933085&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjq2aCLlbn-AhUfJUQIHfAtDrYQ0pQJegQIBhAC&biw=1366&bih=625&dpr=1', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/charlies-bunion-via-appalachian-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>2. Alum Cave Trail - Great Smokey Mountains National Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/11/Alumc-Cave-Trail-Dominic-Walick-AllTrails.jpg" alt="alum cave image">
+                <h7><br>Dominic Walick/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=alum+cave+mount+leconte+tennessee&tbm=isch&ved=2ahUKEwjd3u2vlbn-AhVYie4BHa6wA1kQ2-cCegQIABAA&oq=alum+cave+mount+leconte+tennessee&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQBxAeOgUIABCABFCMA1jvIWCbKmgAcAB4AIABU4gByAqSAQIxOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=2Y5BZJ2OM9iSur8PruGOyAU&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/alum-cave-trail-to-mount-leconte', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>3. Burgess Falls - Burgess Falls State Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2019/01/4125129832_e6b681d2de_o.jpg" alt="burgess falls image">
+                <h7><br>Photo + Travel/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=burgess+falls+state+park+tennessee&tbm=isch&ved=2ahUKEwik2cK6lbn-AhXvN0QIHQNBAUIQ2-cCegQIABAA&oq=burgess++tennessee&gs_lcp=CgNpbWcQARgCMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOggIABAFEAcQHlCEB1jRD2DJIGgAcAB4AIABTogBjQWSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8I5BZKShDO_vkPIPg4KFkAQ&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/burgess-falls-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>4. Cummins Falls - Cummins Falls State Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2019/01/5931776812_7c12161ca9_b-1.jpg" alt="cummins falls image">
+                <h7><br>Michael Hicks/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=cummins+falls+state+park+tennessee&tbm=isch&ved=2ahUKEwiu2_HIlrn-AhWDOEQIHZFyC9wQ2-cCegQIABAA&oq=cummins++tennessee&gs_lcp=CgNpbWcQARgCMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQCBAeMgcIABAYEIAEOggIABAIEAcQHlDoCFipEWD2JGgAcAB4AIABYIgBvgWSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=GpBBZK7mLoPxkPIPkeWt4A0&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/cummins-falls-base-route-via-falls-overlook-trail-and-blackburn-fork', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>5. Virgin Falls - Virgin Falls State Natural Area</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/08/9768305836_fa1b0bf3ef_h.jpg" alt="virgin falls image">
+                <h7><br>Michael Hicks/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=virgin+falls+tennessee&tbm=isch&ved=2ahUKEwjjx4fslrn-AhXhPUQIHXT6ADUQ2-cCegQIABAA&oq=virgin+falls+tennessee&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIHCAAQGBCABDIHCAAQGBCABDoECCMQJzoKCAAQigUQsQMQQzoICAAQgAQQsQM6BwgAEIoFEENQwAdYpCNgqiRoAHAAeACAAZkBiAH_CpIBBDE1LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ZJBBZOOFIOH7kPIP9PSDqAM&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/virgin-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>6. Window Cliffs - Window Cliffs State Natural Area</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/01/Ted-Vaughn-AllTrails.jpeg" alt="window cliffs image">
+                <h7><br>Ted Vaughn/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=window+cliffs+tennessee&tbm=isch&ved=2ahUKEwishomKl7n-AhXxOkQIHdv3BsMQ2-cCegQIABAA&oq=window++tennessee&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMggIABAFEAcQHjoFCAAQgAQ6BggAEAgQHjoHCAAQGBCABFDZBljmD2CjHmgAcAB4AIABowGIAdUGkgEDNC40mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=o5BBZOyoHPH1kPIP2--bmAw&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/window-cliffs', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>7. Snoopers Rock - Prentice Cooper State Forest</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/01/Chris-Guess-AllTrails.jpeg" alt="snoopers rock image">
+                <h7><br>Chris Guess/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=snoopers+rock+tennessee&tbm=isch&ved=2ahUKEwjr3baml7n-AhVYHkQIHbdIDFEQ2-cCegQIABAA&oq=snoopers+rock+tennessee&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoGCAAQBxAeOggIABAFEAcQHjoICAAQCBAHEB5QuBBY9iFgpyZoAHAAeACAAakBiAGJCZIBBDEzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=3pBBZOv2ONi8kPIPt5GxiAU&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/snoopers-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

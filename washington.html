@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo-map.svg">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+
+            <div class="title"> Bucket List Hikes</div>
+            <div class="navbar">
+            <ul class="navbar-nav mr-auto mt-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        About 
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact 
+                    </a>
+                </li>
+
+            </ul>
+            </div>
+
+        </nav>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Washington Bucket List Hikes</h4>
+            <br>
+            <div class="map">
+                <img src="images/map.svg" alt="" srcset="">
+            </div>
+            <ul>
+                <p>1. Burroughs Mountain - Mount Rainier National Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/02/Burroughs-Mountain-NPS.jpg" alt="burroughs image">
+                <h7><br>National Parks Service</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=burroughs+mountain+washington&tbm=isch&ved=2ahUKEwigy468orn-AhX9OkQIHcaGBBoQ2-cCegQIABAA&oq=burroughs+mountain+washington&gs_lcp=CgNpbWcQAzoECCMQJzoHCAAQigUQQzoICAAQgAQQsQM6BQgAEIAEOgoIABCKBRCxAxBDOgsIABCABBCxAxCDAToGCAAQBRAeOgcIABAYEIAEOgQIABAeUIcHWIBaYPlgaABwAHgAgAHDBIgBhhaSAQYyOS41LTGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=lZxBZOCsDP31kPIPxo2S0AE&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/burroughs-mountain-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>2. Hall of Moses - Hoh Rain Forest</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/02/GettyImages-523112102.jpg" alt="moses hall image">
+                <h7><br>Stuart Westmorland/Corbis Documentary Collection via Getty Images</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=hall+of+mosses+washington&tbm=isch&hl=en&sa=X&ved=2ahUKEwjNjv-Jo7n-AhUtiO4BHfWCB9EQBXoECAEQQA&biw=1349&bih=625', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/hoh-rain-forest-hall-of-moss', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>3. Rachel Lake - Cle Elum</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/06/extra_large_49617705f8cc3b2e6b51384c131a3893.jpg" alt="rachel lake image">
+                <h7><br>MC Hiker/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=rachel+lake+washington&tbm=isch&ved=2ahUKEwil7oaLo7n-AhW2K0QIHdEOAywQ2-cCegQIABAA&oq=rachel+lake+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BggAEAgQHjoGCAAQBxAeOggIABAIEAcQHjoHCAAQGBCABFDaBliqFGDpFmgAcAB4AIABT4gB5waSAQIxMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=Op1BZKXpLbbXkPIP0Z2M4AI&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/hibox-mountain-via-rachel-lake-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>4. Crystal Lake - Mount Rainier Area</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/06/extra_large_4de99d8cf8a935c55df19ff311a268bb.jpg" alt="crystal lake image">
+                <h7><br>JT Royster/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=crystal+lake+washington&tbm=isch&ved=2ahUKEwim_MGwo7n-AhWmhu4BHTbADCQQ2-cCegQIABAA&oq=crystal+lake+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgYIABAIEB4yBwgAEBgQgAQyBwgAEBgQgAQyBwgAEBgQgAQ6BAgjECc6BggAEAcQHjoICAAQCBAHEB5QxApY7hdg0BxoAHAAeACAAVGIAdwEkgEBOJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=iZ1BZOaTE6aNur8PtoCzoAI&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/crystal-lake-via-sourdough-gap-and-sheep-lake', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>5. Hole-in-the-Wall - Olympic Peninsula</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/06/extra_large_e15dd5d88ccf3510ee77302c9774492a.jpg" alt="hole wall image">
+                <h7><br>GlutenFreeHiker Tamera/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=hole-in-the-wall+washington&tbm=isch&ved=2ahUKEwjGxvDTo7n-AhWeLEQIHV_IACwQ2-cCegQIABAA&oq=hole-in-the-wall+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBAgAEB4yBAgAEB46BAgjECc6BggAEAgQHjoHCAAQGBCABDoICAAQBRAHEB46CwgAEAUQBxAeEMcDUL4JWPIqYK80aABwAHgAgAFpiAGXCpIBBDE2LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=051BZIaRHZ7ZkPIP35CD4AI&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/hole-in-the-wall-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>6. Chain Lakes Loop - Mount Baker Area</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/06/extra_large_55f9654032182dfd9d72be36dac1eca6.jpg" alt="chain lakes image">
+                <h7><br>Tami Nolan-Adair/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=chain+lakes+loop+washington&tbm=isch&ved=2ahUKEwi32Mrwo7n-AhVoLkQIHYAvD1wQ2-cCegQIABAA&oq=chain+lakes+loop+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgjECc6BAgAEB46BggAEAgQHjoGCAAQBxAeOggIABAFEAcQHjoICAAQCBAHEB46BwgAEBgQgARQwwZYyhtgmh5oAHAAeACAAV2IAYoKkgECMTeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=D55BZPeUKejckPIPgN-84AU&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/chain-lakes-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>7. Kendell Katwalk - Snoqualmie Pass</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/06/extra_large_06ad5ce471e8a2eb9cb8aa6d94d7d6be.jpg" alt="kendell katwalk image">
+                <h7><br>Denis Maranga/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=kendall+katwalk+washington&tbm=isch&hl=en&sa=X&ved=2ahUKEwip5YitpLn-AhWmhu4BHXTJDWwQBXoECAEQKg&biw=1349&bih=625', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/kendall-katwalk-trail--3', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>8. Lewis River Falls - Gifford Pinchot National Forest</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/08/extra_large_b9ab91affdbfb5d241ce242226002845.jpg" alt="lewis river image">
+                <h7><br>Josh Kekahuna/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=lewis+river+falls+washington&tbm=isch&ved=2ahUKEwjayL-upLn-AhVcO0QIHdOQCsMQ2-cCegQIABAA&oq=lewis+river+falls+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQyCAgAEAUQBxAeOgQIIxAnOgYIABAHEB46CAgAEAgQBxAeOgcIABAYEIAEUMcIWP4sYP0vaANwAHgAgAFRiAGEDJIBAjIxmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=kZ5BZJq8H9z2kPIP06GqmAw&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/lewis-river-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>9. Twin Falls - Olallie State Park</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/08/extra_large_2ddb48e46127868648da97d7da72783a.jpg" alt="north bend image">
+                <h7><br>Dan Brown/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=twin+falls+washington&tbm=isch&ved=2ahUKEwjRw_TVpLn-AhV_OEQIHbUKBOEQ2-cCegQIABAA&oq=twin+falls+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEOgQIIxAnOgYIABAHEB46CAgAEAUQBxAeOggIABAIEAcQHlDTBliQDGCgEWgAcAB4AIABUogB7wKSAQE1mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=5J5BZNHBCv_wkPIPtZWQiA4&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/twin-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <p>10. Riverside State Park Loop - Spokane</p>
+                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/03/extra_large_fff1bbcde90b7255cb56cb73e52637d9.jpg" alt="riverside spokane image">
+                <h7><br>Jenna Lauer/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=riverside+state+park+washington&tbm=isch&ved=2ahUKEwjshL6Rpbn-AhWsPkQIHRzMCNIQ2-cCegQIABAA&oq=riverside+state+park+washington&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjoECCMQJzoGCAAQCBAeOgcIABAYEIAEOggIABAIEAcQHjoICAAQBRAHEB46BggAEAUQHlDpB1iKMWD4OGgBcAB4AIABUYgBvQySAQIyMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=YZ9BZKzQBqz9kPIPnJijkA0&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/washington/deep-creek-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
