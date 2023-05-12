@@ -328,3 +328,29 @@ img
     margin-left: 15%;
     margin-right: 15%;
 }
+
+@media (orientation: portrait)
+{
+    body
+    {
+        zoom: 2;
+    }
+
+    ul
+    {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 5%;
+    }
+
+    .navbar
+    {
+        padding-left: 5%;
+    }
+
+    .title
+    {
+        padding-left: 1px;
+    }
+}
