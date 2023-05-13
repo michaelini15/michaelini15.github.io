@@ -342,20 +342,6 @@
         padding-right: 5%;
     }
 
-    .navbar
-    {
-        padding-left: 5%;
-    }
-
-    .title
-    {
-        padding-left: 15px;
-        color: black;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-style: italic;
-        font-size: 40px;
-    }
-
     h2
     {
         color: black;
@@ -679,5 +665,20 @@
     {
         margin-left: 15%;
         margin-right: 15%;
+    }
+    
+    .navbar
+    {
+        padding-left: 5%;
+        font-size: 30px;
+    }
+
+    .title
+    {
+        padding-left: 1px;
+        color: black;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
     }
 }
