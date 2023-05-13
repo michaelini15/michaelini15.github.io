@@ -339,7 +339,7 @@
         color: black;
         padding-top: 10px;
         text-align: center;
-        font-size: 45px;
+        font-size: 65px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -347,7 +347,7 @@
     {
         color: black;
         padding-top: 10px;
-        font-size: 16px;
+        font-size: 30px;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         opacity: 80%;
@@ -495,7 +495,7 @@
     {
         color: black;
         padding-top: 10px;
-        font-size: 18px;
+        font-size: 30px;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -525,11 +525,24 @@
         background-blend-mode: multiply;
     }
 
+    .hero6
+    {
+        background-color: #FFFCD7;
+        background-image: url("images/background-x-horiz.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        background-blend-mode: multiply;
+    }
+
     .hero3
     {
         background-color: #FFFCD7;
-        background-image: url("images/background-slit.jpg");
+        background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
 
         background-blend-mode: multiply;
     }
