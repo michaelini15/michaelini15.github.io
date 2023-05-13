@@ -334,11 +334,6 @@
 
 @media (orientation: portrait)
 {
-    body
-    {
-        zoom: 200%;
-    }
-
     ul
     {
         display: block;
@@ -358,6 +353,7 @@
         color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: italic;
+        font-size: 23px;
     }
 
     h2
@@ -683,5 +679,10 @@
     {
         margin-left: 15%;
         margin-right: 15%;
+    }
+    
+    body
+    {
+        zoom: 200%;
     }
 }
