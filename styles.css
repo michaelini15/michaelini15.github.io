@@ -331,13 +331,14 @@
         font-size: 17px;
     }
 
-    .title
+    a.title
     {
         padding-left: 25px;
         color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: italic;
         font-size: 28.5px;
+        text-decoration-line: none;
     }
 }
 
@@ -687,13 +688,14 @@
         font-size: 32.5px;
     }
 
-    .title
+    a.title
     {
         padding-left: 35px;
         color: black;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: italic;
         font-size: 47.5px;
+        text-decoration-line: none;
     }
 
     p
