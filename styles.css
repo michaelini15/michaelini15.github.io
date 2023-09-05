@@ -92,7 +92,7 @@
     {
         color: black;
         text-align: center;
-        font-size: 40px;
+        font-size: 37.5px;
         isolation: isolate;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -437,7 +437,7 @@
     {
         color: black;
         text-align: center;
-        font-size: 65px;
+        font-size: 55px;
         isolation: isolate;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -449,7 +449,7 @@
 
     h3.about
     {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     h4.about
