@@ -334,11 +334,11 @@
 
     a.title
     {
-        padding-left: 20px;
+        padding-left: 15px;
         color: black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
-        font-size: 27.5px;
+        font-size: 25px;
         text-decoration-line: none;
         font-weight: bold;
     }
@@ -693,11 +693,11 @@
 
     a.title
     {
-        padding-left: 30px;
+        padding-left: 25px;
         color: black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
-        font-size: 40px;
+        font-size: 35px;
         text-decoration-line: none;
         font-weight: bold;
     }
