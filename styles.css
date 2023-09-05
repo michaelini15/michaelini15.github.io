@@ -336,10 +336,11 @@
     {
         padding-left: 25px;
         color: black;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:Tahoma;
         font-style: italic;
-        font-size: 32px;
+        font-size: 30px;
         text-decoration-line: none;
+        font-weight: bold;
     }
 }
 
@@ -694,10 +695,11 @@
     {
         padding-left: 35px;
         color: black;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family:Tahoma;
         font-style: italic;
-        font-size: 47.5px;
+        font-size: 45px;
         text-decoration-line: none;
+        font-weight: bold;
     }
 
     p
