@@ -185,7 +185,7 @@
 
     .hero2
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-original.jpg");
         background-size: cover;
 
@@ -194,7 +194,7 @@
 
     .hero3
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-slit.jpg");
         background-size: cover;
 
@@ -203,7 +203,7 @@
 
     .hero4
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
 
@@ -212,7 +212,7 @@
 
     .hero5
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
         background-size: cover;
 
@@ -524,7 +524,7 @@
 
     .hero2
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-original.jpg");
         background-size: cover;
 
@@ -533,7 +533,7 @@
 
     .hero6
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -544,7 +544,7 @@
 
     .hero3
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -555,7 +555,7 @@
 
     .hero4
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
 
@@ -564,17 +564,8 @@
 
     .hero5
     {
-        background-color: #FFFCD7;
+        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
-        background-size: cover;
-
-        background-blend-mode: multiply;
-    }
-
-        .hero7
-    {
-        background-color: #FFFCD7;
-        background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
 
         background-blend-mode: multiply;
