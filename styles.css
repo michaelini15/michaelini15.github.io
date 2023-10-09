@@ -181,9 +181,6 @@
         position: relative;
         margin-left: auto;
         margin-right: auto;
-
-        border: 2px solid;
-        border-color: #F6BC70;
     }
 
     .hero2
@@ -523,9 +520,6 @@
         margin-left: auto;
         margin-right: auto;
         zoom: 1.6;
-
-        border: 2px solid;
-        border-color: #F6BC70;
     }
 
     .hero2
