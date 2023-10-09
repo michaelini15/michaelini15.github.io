@@ -571,6 +571,15 @@
         background-blend-mode: multiply;
     }
 
+        .hero7
+    {
+        background-color: #FFFCD7;
+        background-image: url("images/background-m-horiz.jpg");
+        background-size: cover;
+
+        background-blend-mode: multiply;
+    }
+
     .container-p-5
     {
         margin-left: auto;
