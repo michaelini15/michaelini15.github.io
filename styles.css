@@ -697,7 +697,7 @@ nav
 {
     background-color: #0082e6;
     box-shadow: 3px 3px 5px rbga(0, 0, 0, 0.1);
-
+    height: 52.5px;
 }
 nav ul 
 {
@@ -758,7 +758,7 @@ a.title
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    font-size: 25px;
+    font-size: 30px;
     text-decoration-line: none;
     font-weight: bold;
     position: relative;
@@ -1023,6 +1023,11 @@ a.title
     {
         opacity: 80%;
         cursor: pointer;
+    }
+    .hideOnMobile
+    {
+        display: flex;
+        font-size: 20px;
     }
 
 /*@media(max-width: 800px)
