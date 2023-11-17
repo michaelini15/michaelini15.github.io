@@ -1029,6 +1029,12 @@ a.title
         display: flex;
         font-size: 20px;
     }
+    .whtbar
+    {
+        width: 100%;
+        background-color: white;
+        height:10px;
+    }
 
 /*@media(max-width: 800px)
 {
