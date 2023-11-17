@@ -1047,6 +1047,12 @@ a.title
 
 @media(orientation: portrait)
 {
+    nav 
+    {
+        background-color: #0082e6;
+        box-shadow: 3px 3px 5px rbga(0, 0, 0, 0.1);
+        height: 90px;
+    }
     .hideOnMobile
     {
         display: none;
@@ -1054,6 +1060,7 @@ a.title
     .menu-button
     {
         display: block;
+        margin-top: 2%;
     }
     .sidebar
     {
@@ -1409,6 +1416,7 @@ a.title
         font-size: 40px;
         text-decoration-line: none;
         font-weight: bold;
+        margin-top: 2.5%;
     }
 
     p
@@ -1417,6 +1425,6 @@ a.title
     }
     .sdbar 
     {
-        font-size: 100px;
+        font-size: 130px;
     }
 }
