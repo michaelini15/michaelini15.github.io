@@ -1,4 +1,4 @@
-@media (orientation: landscape)
+/*@media (orientation: landscape)
 {
     h2
     {
@@ -185,7 +185,6 @@
 
     .hero2
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-original.jpg");
         background-size: cover;
 
@@ -194,7 +193,6 @@
 
     .hero3
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-slit.jpg");
         background-size: cover;
 
@@ -203,7 +201,6 @@
 
     .hero4
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
 
@@ -212,7 +209,6 @@
 
     .hero5
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
         background-size: cover;
 
@@ -524,7 +520,6 @@
 
     .hero2
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-original.jpg");
         background-size: cover;
 
@@ -533,7 +528,6 @@
 
     .hero6
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -544,7 +538,6 @@
 
     .hero3
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -555,7 +548,6 @@
 
     .hero4
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-m-horiz.jpg");
         background-size: cover;
 
@@ -564,7 +556,6 @@
 
     .hero5
     {
-        /*background-color: #FFFCD7;*/
         background-image: url("images/background-x-horiz.jpg");
         background-size: cover;
 
@@ -699,5 +690,377 @@
     p
     {
         font-size: 42px;
+    }
+}*/
+
+nav 
+{
+    background-color: #0082e6;
+    box-shadow: 3px 3px 5px rbga(0, 0, 0, 0.1);
+
+}
+nav ul 
+{
+    width: 100%;
+    list-style:none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li 
+{
+    height: 50px;
+}
+nav a
+{
+    height:100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav li:first-child 
+{
+    margin-right: auto;
+}
+.sidebar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    box-shadow: -10px 0 10px rbga(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li 
+{
+    width: 100%;
+
+}
+.sidebar a 
+{
+    width: 100%;
+}
+.menu-button
+{
+    display: none;
+}
+a.title
+{
+    padding-left: 0%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    text-decoration-line: none;
+    font-weight: bold;
+    position: relative;
+}
+    .hero
+    {
+        background-image: url("images/utah-mountains-background\ \(2\).jpg");
+        background-size: auto;
+        height: 188px;
+        display: block;
+        place-items: center;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        zoom: 1;
+    }
+    #moveable-logo
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 189px;
+        width: 300px;
+    }
+    .hero2
+    {
+        background-image: url("images/background-original.jpg");
+        background-size: cover;
+
+        background-blend-mode: multiply;
+    }
+
+    .hero3
+    {
+        background-image: url("images/background-slit.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        background-blend-mode: multiply;
+    }
+
+    .hero4
+    {
+        background-image: url("images/background-m-horiz.jpg");
+        background-size: cover;
+
+        background-blend-mode: multiply;
+    }
+
+    .hero5
+    {
+        background-image: url("images/background-x-horiz.jpg");
+        background-size: cover;
+
+        background-blend-mode: multiply;
+    }
+    h3
+    {
+        color: black;
+        text-align: center;
+        font-size: 37.5px;
+        isolation: isolate;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .about
+    {
+        font-family: monospace;
+    }
+    h3.about
+    {
+        font-size: 24px;
+    }
+    .center
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    td
+    {
+        color: blue;
+        font-size: 20px;
+        isolation: isolate;
+        text-decoration-line: underline
+    }
+
+    td:hover
+    {
+        color: red;
+        opacity: 60%;
+    }
+
+    td.home:hover
+    {
+        color: red;
+        opacity: 60%;
+    }
+    td.home
+    {
+        color: blue;
+        font-size: 20px;
+        text-align: center;
+        isolation: isolate;
+        text-decoration-line: underline;
+    }
+    h4.about
+    {
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+    }
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .map
+    {
+        width: 405px;
+        height: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 75px;
+    }
+    p
+    {
+        color: black;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        font-size: 27px;
+    }
+    h7
+    {
+        color: black;
+        opacity: 60%;
+        font-size: 8px;;
+    }
+    tr[data-href]
+    {
+        cursor: pointer;
+    }
+
+    tr[onclick]
+    {
+        cursor: pointer;
+    }
+    #short
+    {
+        color: blue;
+    }
+
+    #moderate
+    {
+        color: green;
+    }
+
+    #long
+    {
+        color: orange;
+    }
+
+    #verylong
+    {
+        color: red;
+    }
+    h4
+    {
+        text-align: center;
+        font-size: 18px;
+    }
+    th
+    {
+        font-size: 25px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+    }
+    h2
+    {
+        color: black;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 45px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .about
+    {
+        font-family: monospace;
+    }
+    h6
+    {
+        color: black;
+        padding-top: 10px;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-size: 19.5px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h5
+    {
+        color: black;
+        padding-top: 10px;
+        font-size: 19.5px;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        opacity: 50%;
+    }
+    input
+    {
+        background-color: white;
+        width: 40%;
+        margin-left: 30%;
+        font-size: 20px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border-color: black;
+        margin-bottom: 20px;
+    }
+
+    textarea
+    {
+        background-color: white;
+        width: 40%;
+        margin-left: 30%;
+        font-size: 20px;
+        padding: 16px 16px;
+        border-radius: 10px;
+        border-color: black;
+        margin-bottom: 25px;
+        font-family: monospace;
+    }
+
+    input:focus-within
+    {
+        outline: none;
+        border-color: #5bd183;
+        border-width: 3px;
+    }
+
+    textarea:focus-within
+    {
+        outline: none;
+        border-color: #5bd183;
+        border-width: 3px;
+    }
+
+    button
+    {
+        background-color: #5bd183;
+        border-radius: 20px;
+        border-color: black;
+        font-size: 18px;
+        padding: 10px 18px;
+        text-align: center;
+        display: flex;
+        margin: auto;
+    }
+
+    button:hover
+    {
+        opacity: 80%;
+        cursor: pointer;
+    }
+
+/*@media(max-width: 800px)
+{
+    .hideOnMobile
+    {
+        display: none;
+    }
+    .menu-button
+    {
+        display: block;
+    }
+}
+
+@media(max-width: 400px)
+{
+    .sidebar
+    {
+        width: 100%;
+    }
+}*/
+
+@media(orientation: portrait)
+{
+    .hideOnMobile
+    {
+        display: none;
+    }
+    .menu-button
+    {
+        display: block;
+    }
+    .sidebar
+    {
+        width: 100%;
+    }
+    nav a 
+    {
+        color:black;
     }
 }
