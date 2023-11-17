@@ -1063,4 +1063,22 @@ a.title
     {
         color:black;
     }
+    .hero6
+    {
+        background-image: url("images/background-x-horiz.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        background-blend-mode: multiply;
+    }
+    .hero3
+    {
+        background-image: url("images/background-m-horiz.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        background-blend-mode: multiply;
+    }
 }
