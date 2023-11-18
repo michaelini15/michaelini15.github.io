@@ -829,7 +829,7 @@ a.title
     }
     h3.about
     {
-        font-size: 24px;
+        font-size: 32px;
     }
     .center
     {
@@ -858,7 +858,7 @@ a.title
     td.home
     {
         color: blue;
-        font-size: 20px;
+        font-size: 22px;
         text-align: center;
         isolation: isolate;
         text-decoration-line: underline;
@@ -1185,7 +1185,7 @@ a.title
 
     h3.about
     {
-        font-size: 40px;
+        font-size: 55px;
     }
 
     h4.about
@@ -1220,7 +1220,7 @@ a.title
     td.home
     {
         color: blue;
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
         isolation: isolate;
         text-decoration-line: underline;
@@ -1302,12 +1302,6 @@ a.title
         background-size: cover;
 
         background-blend-mode: multiply;
-    }
-
-    .container-p-5
-    {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     th
