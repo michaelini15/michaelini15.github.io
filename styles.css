@@ -1086,7 +1086,7 @@ a.title
         color: black;
         padding-top: 10px;
         text-align: center;
-        font-size: 65px;
+        font-size: 75px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -1192,7 +1192,7 @@ a.title
     {
         color: black;
         text-align: center;
-        font-size: 60px;
+        font-size: 75px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: italic;
     }
@@ -1242,7 +1242,9 @@ a.title
     {
         color: black;
         padding-top: 10px;
-        font-size: 30px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 40px;
         text-align: center;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
