@@ -26,7 +26,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+        <!--<nav class="navbar navbar-expand-md navbar-light bg-light border">
 
             <a class="title" href="index.html"> Bucket List Hikes</a>
             <div class="navbar">
@@ -47,7 +47,39 @@
             </ul>
             </div>
 
+        </nav>-->
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="title" href="index.html">Bucket List Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
         </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+
+        <div class="whtbar"></div>
 
         <main class="container-p-5">
 
@@ -65,7 +97,7 @@
             </div>
             <ul>
                 <p>1. Garden of the Gods - Colorado Springs</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/01/16233597400_64be78236b_h.jpg" alt="gods garden image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/01/16233597400_64be78236b_h.jpg" alt="gods garden image">
                 <h7><br>Zach Frailey/Flickr</h7>
                 <table>
                     <tr>
@@ -84,7 +116,7 @@
             <br>
             <ul>
                 <p>2. Devil's Head Lookout - Sedalia</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/01/5734084688_18359ac5cb_b.jpg" alt="devils head image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2018/01/5734084688_18359ac5cb_b.jpg" alt="devils head image">
                 <h7><br>sfgamchick/Flickr</h7>
                 <table>
                     <tr>
@@ -103,7 +135,7 @@
             <br>
             <ul>
                 <p>3. Ice Lakes Basin - San Juan National Forest</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-22-at-5.44.46-PM.png" alt="ice lakes image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-22-at-5.44.46-PM.png" alt="ice lakes image">
                 <h7><br>Akami1989/Tripadvisor</h7>
                 <table>
                     <tr>
@@ -122,7 +154,7 @@
             <br>
             <ul>
                 <p>4. Sky Pond - Rocky Mountain National Park</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/01/27823796112_3daa7eab43_b.jpg" alt="sky pond image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/01/27823796112_3daa7eab43_b.jpg" alt="sky pond image">
                 <h7><br>Brendan Bombaci/Flickr</h7>
                 <table>
                     <tr>
@@ -141,7 +173,7 @@
             <br>
             <ul>
                 <p>5. Crater Lake - Indian Peaks Wilderness</p>
-                <img src="https://www.thebrokebackpacker.com/wp-content/uploads/2018/12/crater-lake-indian-peaks-690x465.jpg" alt="crater lake image">
+                <img class="hikepic" src="https://www.thebrokebackpacker.com/wp-content/uploads/2018/12/crater-lake-indian-peaks-690x465.jpg" alt="crater lake image">
                 <h7><br>Tom Robson/Hikingproject</h7>
                 <table>
                     <tr>
@@ -160,7 +192,7 @@
             <br>
             <ul>
                 <p>6. Huron Peak - Collegiate Peaks Wilderness</p>
-                <img src="https://hikingproject.com/assets/photos/hike/7000465_medium_1554159359.jpg?cache=1682118367" alt="huron peak image" id="huron-peak">
+                <img class="hikepic" src="https://hikingproject.com/assets/photos/hike/7000465_medium_1554159359.jpg?cache=1682118367" alt="huron peak image" id="huron-peak">
                 <h7><br>Tom Robson/Hikingproject</h7>
                 <table>
                     <tr>
@@ -179,7 +211,7 @@
             <br>
             <ul>
                 <p>7. Black canyon - Lost Creek Wilderness</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/01/9491527274_a284554382_k.jpg" alt="black canyon image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/01/9491527274_a284554382_k.jpg" alt="black canyon image">
                 <h7><br>daveynin/Flickr</h7>
                 <table>
                     <tr>
@@ -198,7 +230,7 @@
             <br>
             <ul>
                 <p>8. Hanging Lake - White River National Forest</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2016/08/1024px-Glenwood_Canyon.jpg" alt="hanging lake image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2016/08/1024px-Glenwood_Canyon.jpg" alt="hanging lake image">
                 <h7><br>Wikimedia Commons</h7>
                 <table>
                     <tr>
@@ -217,7 +249,7 @@
             <br>
             <ul>
                 <p>9. Paint Mines - Paint Mines Interpretive Park</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/09/25401588126_313b87d185_c.jpg" alt="paint mines image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/09/25401588126_313b87d185_c.jpg" alt="paint mines image">
                 <h7><br>Bryce Bradford/Flickr</h7>
                 <table>
                     <tr>
@@ -235,7 +267,7 @@
             <br>
             <ul>
                 <p>10. Chasm Lake - Rocky Mountain National Park</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/09/hikes-2.png" alt="chasm lake image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/09/hikes-2.png" alt="chasm lake image">
                 <h7><br>Michael Hartigan/Alltrails</h7>
                 <table>
                     <tr>
