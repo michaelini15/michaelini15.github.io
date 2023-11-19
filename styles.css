@@ -1033,7 +1033,7 @@ a.title
     {
         width: 100%;
         background-color: white;
-        height:10px;
+        height:7px;
     }
 
 /*@media(max-width: 800px)
@@ -1435,5 +1435,11 @@ a.title
     .hikepic 
     {
         width: 96%;
+    }
+    .whtbar
+    {
+        width: 100%;
+        background-color: white;
+        height:12px;
     }
 }
