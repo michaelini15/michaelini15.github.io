@@ -20,7 +20,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+        <!--<nav class="navbar navbar-expand-md navbar-light bg-light border">
 
             <a class="title" href="index.html"> Bucket List Hikes</a>
             <div class="navbar">
@@ -41,7 +41,39 @@
             </ul>
             </div>
 
+        </nav>-->
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="title" href="index.html">Bucket List Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
         </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+
+        <div class="whtbar"></div>
 
         <main class="container-p-5">
 
@@ -59,7 +91,7 @@
             </div>
             <ul>
                 <p>1. Mina Sauk Falls - Taum Sauk Mountain State Park</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trails-5-e1510610856303.jpg" alt="mina sauk image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trails-5-e1510610856303.jpg" alt="mina sauk image">
                 <h7><br>Carol Turner/Alltrails</h7>
                 <table>
                     <tr>
@@ -78,7 +110,7 @@
             <br>
             <ul>
                 <p>2. Greer Spring - Mark Twain National Forest</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/01/3-16.jpg" alt="greer spring image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2022/01/3-16.jpg" alt="greer spring image">
                 <h7><br>Teri Vermillion/Alltrails</h7>
                 <table>
                     <tr>
@@ -97,7 +129,7 @@
             <br>
             <ul>
                 <p>3. Johnson's Shut-Ins - Middle Brook</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/11/1-164.jpg" alt="johnsons shutin image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2020/11/1-164.jpg" alt="johnsons shutin image">
                 <h7><br>Brooke Eekridge/Alltrails</h7>
                 <table>
                     <tr>
@@ -116,7 +148,7 @@
             <br>
             <ul>
                 <p>4. Clifty Creek Natural Area Trail - Clifty Creek Natural Area</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trail-7-e1510610812858.jpg" alt="clifty creek image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trail-7-e1510610812858.jpg" alt="clifty creek image">
                 <h7><br>Doug Neidholdt/Alltrails</h7>
                 <table>
                     <tr>
@@ -135,7 +167,7 @@
             <br>
             <ul>
                 <p>5. Bell Mountain Loop - Mark Twain National Forest</p>
-                <img src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trail-5-e1510610842850.jpg" alt="bell mountain image">
+                <img class="hikepic" src="https://img-aws.ehowcdn.com/700x/www.onlyinyourstate.com/wp-content/uploads/2017/11/trail-5-e1510610842850.jpg" alt="bell mountain image">
                 <h7><br>Brian Metteer/Alltrails</h7>
                 <table>
                     <tr>
