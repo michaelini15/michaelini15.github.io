@@ -1077,8 +1077,8 @@ a.title
     }
     .sidebar
     {
-        width: 65%;
-        height: 65%;
+        width: 64%;
+        height: 100%;
         background-color: #0082e6;
     }
     nav a 
