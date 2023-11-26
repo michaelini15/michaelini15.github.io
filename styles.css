@@ -1077,13 +1077,14 @@ a.title
     }
     .sidebar
     {
-        width: 64%;
+        width: 55%;
         height: 100%;
         background-color: #0082e6;
     }
     nav a 
     {
         color:white;
+        font-size:80px;
     }
     h2
     {
