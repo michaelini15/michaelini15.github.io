@@ -709,7 +709,7 @@ nav ul
 }
 nav li 
 {
-    height: 50px;
+    height: 52px;
 }
 nav a
 {
@@ -758,7 +758,7 @@ a.title
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 26px;
     text-decoration-line: none;
     font-weight: bold;
     position: relative;
