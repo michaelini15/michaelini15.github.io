@@ -713,6 +713,7 @@ nav li
 }
 nav a
 {
+    font-style: italic;
     height:100%;
     padding: 0 30px;
     text-decoration: none;
@@ -1083,6 +1084,7 @@ a.title
     }
     nav a 
     {
+        font-style: italic;
         color:white;
         font-size:80px;
     }
