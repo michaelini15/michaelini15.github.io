@@ -714,6 +714,7 @@ nav li
 nav a
 {
     font-style: italic;
+    font-size: 18px;
     height:100%;
     padding: 0 30px;
     text-decoration: none;
