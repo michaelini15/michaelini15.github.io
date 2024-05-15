@@ -759,9 +759,9 @@ nav li:first-child
 {
     display: none;
 }
-a.logo
+li img
 {
-    width: 155px;
+    width: 95px;
     padding-top: 4px;
     padding-bottom: 2px;
 }
