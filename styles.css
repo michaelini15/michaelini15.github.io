@@ -695,9 +695,13 @@
 
 nav 
 {
+    position: fixed;
+    width: 100%;
     background-color: #0082e6;
     box-shadow: 3px 3px 5px rbga(0, 0, 0, 0.1);
     height: 52.5px;
+    z-index: 9999;
+    top: 0;
 }
 nav ul 
 {
@@ -714,9 +718,10 @@ nav li
 nav a
 {
     font-style: italic;
-    font-size: 18px;
+    font-size: 17px;
     height:100%;
-    padding: 0 30px;
+    /*padding: 0 30px;*/
+    padding-right: 31px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -754,7 +759,13 @@ nav li:first-child
 {
     display: none;
 }
-a.title
+a.logo
+{
+    width: 155px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+/*a.title
 {
     padding-left: 0%;
     color: white;
@@ -764,6 +775,10 @@ a.title
     text-decoration-line: none;
     font-weight: bold;
     position: relative;
+}*/
+body
+{
+    padding-top: 51px;
 }
     .hero
     {
@@ -1424,8 +1439,12 @@ a.title
         padding-right: 10px;
         font-size: 25px;
     }
-
-    a.title
+    a.logo
+    {
+        width: 800px;
+        height: 90px;
+    }
+    /*a.title
     {
         padding-left: 0%;
         color: white;
@@ -1435,7 +1454,7 @@ a.title
         text-decoration-line: none;
         font-weight: bold;
         margin-top: 3.5%;
-    }
+    }*/
     .sdbar 
     {
         font-size: 130px;
