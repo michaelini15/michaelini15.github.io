@@ -759,12 +759,6 @@ nav li:first-child
 {
     display: none;
 }
-li img
-{
-    width: 95px;
-    padding-top: 4px;
-    padding-bottom: 2px;
-}
 /*a.title
 {
     padding-left: 0%;
@@ -1442,11 +1436,6 @@ body
         justify-content: space-between;
         padding-right: 10px;
         font-size: 25px;
-    }
-    a.logo
-    {
-        width: 800px;
-        height: 90px;
     }
     /*a.title
     {
