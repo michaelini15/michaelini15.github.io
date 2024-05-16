@@ -3,7 +3,6 @@ a.logo
     width: 155px;
     padding-top: 4px;
     padding-bottom: 2px;
-    scale: 2;
 }
 nav 
 {
@@ -388,7 +387,6 @@ body
     {
         width: 800px;
         height: 90px;
-        scale: 2;
     }
     nav 
     {
