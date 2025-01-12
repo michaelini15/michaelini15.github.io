@@ -58,7 +58,7 @@ listTodo(); // call print handler for showing data into list
  /* handler for set data/item todo  */
 let setData = (item) => {
     if(getData(item) != false) {
-        alert("Item already added in todo");
+        alert("Item already added");
     }else{
         let data = getData(); // call getdata handler for getting  data from list 
         data = (data != false) ? data : []; 
