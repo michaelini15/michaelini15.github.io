@@ -469,18 +469,18 @@ body
     input:focus-within
     {
         outline: none;
-        border-color: #5bd183;
+        /*border-color: #5bd183;*/
         border-width: 3px;
     }
 
     textarea:focus-within
     {
         outline: none;
-        border-color: #5bd183;
+        /*border-color: #5bd183;*/
         border-width: 3px;
     }
 
-    button
+    /*button
     {
         background-color: #5bd183;
         border-radius: 20px;
@@ -490,7 +490,7 @@ body
         text-align: center;
         display: flex;
         margin: auto;
-    }
+    }*/
 
     button:hover
     {
