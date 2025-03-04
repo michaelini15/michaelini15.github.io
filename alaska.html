@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText1() 
+            {
+            navigator.clipboard.writeText
+                ("Lost Lake - Chugach National Forest");
+            }
+            function copyText2() 
+            {
+            navigator.clipboard.writeText
+                ("Kesugi Ridge - Denali State Park");
+            }
+            function copyText3() 
+            {
+            navigator.clipboard.writeText
+                ("Granite Tors - Fairbanks");
+            }
+            function copyText4() 
+            {
+            navigator.clipboard.writeText
+                ("Nugget Falls - Tongass National Forest");
+            }
+            function copyText5() 
+            {
+            navigator.clipboard.writeText
+                ("Crow Pass - Chugach National Forest");
+            }
+            function copyText6() 
+            {
+            navigator.clipboard.writeText
+                ("O'Malley Peak - Chugach State Park");
+            }
+            function copyText7() 
+            {
+            navigator.clipboard.writeText
+                ("Deer Mountain - Tongass National Forest");
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Alaska</h4>
+            <br>
+            <div class="map">
+                <img src="images/Alaska-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Lost Lake - Chugach National Forest</p></div>
+                <button onclick="copyText1()">Copy</button><br>
+                <img class="hikepic" src="images/lost lake image.webp" alt="lost lake image", height="500">
+                <h7><br>Dan Logan/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=lost+lake+chugach+national+forest&tbm=isch&ved=2ahUKEwic9vj9nbT-AhWyPEQIHdb3B-0Q2-cCegQIABAA&oq=lost+lake+chugach+national+forest&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BggAEAgQHjoHCAAQGBCABDoHCAAQigUQQzoGCAAQBRAeUOUDWLoyYLgzaABwAHgAgAGHAYgBxhKSAQQyOC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=yvg-ZJzpF7L5kPIP1u-f6A4&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/lost-lake-trail--2', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Kesugi Ridge - Denali State Park</p></div>
+                <button onclick="copyText2()">Copy</button><br>
+                <img class="hikepic" src="hike-images/kesugi ridge image.jpg" alt="kesugi ridge image", height="500">
+                <h7><br>Wikimedia</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=kesugi+ridge+alaska&tbm=isch&ved=2ahUKEwimkM2ToLT-AhXaOkQIHbL8Ca8Q2-cCegQIABAA&oq=kesugi+ridge+alaska&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjoECCMQJzoHCAAQGBCABDoHCCMQ6gIQJzoECAAQAzoICAAQgAQQsQM6BwgAEIoFEEM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBOgQIABAeOgkIABAYEIAEEApQnQdYiElg10poB3AAeAKAAWmIAa4akgEENDIuMZgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=EPs-ZKbIKdr1kPIPsvmn-Ao&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/kesugi-ridge-curry-ridge-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Granite Tors - Fairbanks</p></div>
+                <button onclick="copyText2()">Copy</button><br>
+                <img class="hikepic" src="hike-images/granite tors image.jpg" alt="granite tors image", height="500">
+                <h7><br>Thomas Vrable/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=granite+tors+alaska&tbm=isch&ved=2ahUKEwio8bi_oLT-AhUWN0QIHavyBPEQ2-cCegQIABAA&oq=granite+tors+alaska&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjoECCMQJzoHCCMQ6gIQJzoICAAQgAQQsQM6BwgAEIoFEEM6CggAEIoFELEDEEM6CAgAELEDEIMBOgYIABAFEB46BAgAEB5Q5QRY4zhg1TtoAXAAeAKAAWiIAZ4XkgEEMzYuMpgBAKABAaoBC2d3cy13aXotaW1nsAEKwAEB&sclient=img&ei=bPs-ZKiLJpbukPIPq-WTiA8&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/granite-tors-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Nugget Falls - Tongass National Forest</p></div>
+                <button onclick="copyText4()">Copy</button><br>
+                <img class="hikepic" src="hike-images/nugget falls image.jpg" alt="nugget falls image", height="500">
+                <h7><br>chaolik via iStock/Getty Images Plus</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=nugget+falls+alaska&tbm=isch&ved=2ahUKEwjG_oSio7T-AhWyOUQIHTwJD_YQ2-cCegQIABAA&oq=nugget+&gs_lcp=CgNpbWcQARgAMgcIABCKBRBDMggIABCABBCxAzIICAAQgAQQsQMyCAgAEIAEELEDMgUIABCABDIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgYIABAIEB46BwgjEOoCECc6CAgAELEDEIMBULwIWPYeYJIraAFwAHgCgAF2iAGMD5IBBDI1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=VP4-ZMaEELLzkPIPvJK8sA8&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/nugget-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Crow Pass - Chugach National Forest</p></div>
+                <button onclick="copyText5()">Copy</button><br>
+                <img class="hikepic" src="hike-images/crow pass image.jpg" alt="crow pass image", height="500">
+                <h7><br>Paxson Woelber/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=crow+pass+alaska&tbm=isch&ved=2ahUKEwjRyKv-n7T-AhX9PEQIHVIkAmMQ2-cCegQIABAA&oq=crow+pass+alaska&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjIHCAAQGBCABDoECCMQJ1DxEFifQWDFR2gAcAB4AIABUIgBlAaSAQIxMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=5Po-ZNHGBf35kPIP0siImAY&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/crow-pass-trail-from-girdwood-trailhead?utm_source=awin&utm_medium=affiliate&awc=29239_1681848922_7e96fae5cbef459c98685c2d2d758eb3&cks=29239_1681848922_7e96fae5cbef459c98685c2d2d758eb3&af_c_id=onlyinyourstate.com&pid=affiliatewindow_int&is_retargeting=true&af_click_lookback=30d&af_media_type=web&af_reengagement_window=30d&af_siteid=78888&c=awin', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. O'Malley Peak - Chugach State Park</p></div>
+                <button onclick="copyText6()">Copy</button><br>
+                <img class="hikepic" src="hike-images/omalley peak image.webp" alt="omalley peak image", height="500">
+                <h7><br>Christopher Northcutt/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=o%27malley+peak+alaska&sxsrf=APwXEdcG4yJbN7Egc0bkJBeEq_I-Gl3M4Q:1682188878718&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjjlL70kb7-AhVHITQIHVigAucQ0pQJegQIBhAE&biw=1366&bih=625&dpr=1', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/omalley-peak-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>7. Deer Mountain - Tongass National Forest</p></div>
+                <button onclick="copyText7()">Copy</button><br>
+                <img class="hikepic" src="hike-images/deer mountain image.jpg" alt="deer mountain image", height="500">
+                <h7><br>Kristen Mathern/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=deer+mountain+alaska&tbm=isch&ved=2ahUKEwjvrbaAlL7-AhU3P0QIHftQC34Q2-cCegQIABAA&oq=deer+mountain+alaska&gs_lcp=CgNpbWcQAzIGCAAQBxAeMgcIABAYEIAEOgQIIxAnOgUIABCABDoICAAQBRAHEB46BggAEAUQHlCiCFiHHGCSIWgAcAB4AIABZIgB-giSAQQxMy4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=gCxEZO_tJbf-kPIP-6Gt8Ac&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/alaska/deer-mountain-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
