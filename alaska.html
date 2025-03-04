@@ -102,6 +102,11 @@
             navigator.clipboard.writeText
                 ("Deer Mountain - Tongass National Forest");
             }
+            function changeColor(event)
+            {
+                var color = '#39FF14';
+                event.style.backgroundColor=color;
+            }
         </script>
 
         <div class="whtbar"></div>
@@ -124,7 +129,7 @@
             </div>
             <ul>
                 <div id="sample"><p>1. Lost Lake - Chugach National Forest</p></div>
-                <button onclick="copyText1()">Copy</button><br>
+                <button onclick="copyText1();changeColor(this)">Copy</button><br>
                 <img class="hikepic" src="images/lost lake image.webp" alt="lost lake image", height="500">
                 <h7><br>Dan Logan/Flickr</h7>
                 <table>
@@ -144,7 +149,7 @@
             <br>
             <ul>
                 <div id="sample"><p>2. Kesugi Ridge - Denali State Park</p></div>
-                <button onclick="copyText2()">Copy</button><br>
+                <button onclick="copyText2();changeColor(this)">Copy</button><br>
                 <img class="hikepic" src="hike-images/kesugi ridge image.jpg" alt="kesugi ridge image", height="500">
                 <h7><br>Wikimedia</h7>
                 <table>
