@@ -73,6 +73,11 @@
             navigator.clipboard.writeText
                 ("Walls of Jericho - Estillfork");
             }
+            function changeColor(event)
+            {
+                var color = '#39FF14';
+                event.style.backgroundColor=color;
+            }
         </script>
 
         <div class="whtbar"></div>
@@ -94,7 +99,7 @@
             </div>
             <ul>
                 <div id="sample"><p>1. Walls of Jericho - Estillfork</p></div>
-                <button onclick="copyText()">Copy</button><br>
+                <button onclick="copyText();changeColor(this)">Copy</button><br>
                 <img class="hikepic" src="hike-images/walls of jericho image.jpg" alt="jericho image", height="500">
                 <h7><br>Meredith Odell/Alltrails</h7>
                 <table>
