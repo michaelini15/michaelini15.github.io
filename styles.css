@@ -333,17 +333,19 @@ body
         border-width: 3px;
     }
 
-    /*button
+    button
     {
-        background-color: #5bd183;
+        /*background-color: #5bd183;
         border-radius: 20px;
         border-color: black;
         font-size: 18px;
         padding: 10px 18px;
         text-align: center;
         display: flex;
-        margin: auto;
-    }*/
+        margin: auto;*/
+        border-radius: 8px;
+        color: blue;       
+    }
 
     button:hover
     {
