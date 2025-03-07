@@ -164,7 +164,7 @@ body
         color: blue;
         font-size: 20px;
         isolation: isolate;
-        text-decoration-line: underline
+        /*text-decoration-line: underline*/
     }
 
     td:hover
@@ -175,16 +175,16 @@ body
 
     td.home:hover
     {
-        color: red;
+        color: blue;
         opacity: 60%;
     }
     td.home
     {
-        color: blue;
+        color: black;
         font-size: 22px;
         text-align: center;
         isolation: isolate;
-        text-decoration-line: underline;
+        /*text-decoration-line: underline;*/
     }
     h4.about
     {
@@ -544,7 +544,7 @@ body
         color: blue;
         font-size: 45px;
         isolation: isolate;
-        text-decoration-line: underline
+        /*text-decoration-line: underline*/
     }
 
     td:hover
@@ -555,17 +555,17 @@ body
 
     td.home:hover
     {
-        color: red;
+        color: blue;
         opacity: 60%;
     }
 
     td.home
     {
-        color: blue;
+        color: black;
         font-size: 50px;
         text-align: center;
         isolation: isolate;
-        text-decoration-line: underline;
+        /*text-decoration-line: underline;*/
     }
 
     .menu-image
