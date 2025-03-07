@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText241() 
+            {
+            navigator.clipboard.writeText
+                ("Jenny Lake Trail - Grand Teton National Park");
+            }
+            function copyText242() 
+            {
+            navigator.clipboard.writeText
+                ("Canyon Rim North to Inspiration Point - Yellowstone National Park");
+            }
+            function copyText243() 
+            {
+            navigator.clipboard.writeText
+                ("Mystic Falls - Yellowstone National Park");
+            }
+            function copyText244() 
+            {
+            navigator.clipboard.writeText
+                ("Medicine Bow Peak - Medicine Bow National Forest");
+            }
+            function copyText245() 
+            {
+            navigator.clipboard.writeText
+                ("Devils Tower - Devils Tower National Monument");
+            }
+            function copyText246() 
+            {
+            navigator.clipboard.writeText
+                ("Lake Solitude and Misty Moon - Cloud Peak Wilderness");
+            }
+            function copyText247() 
+            {
+            navigator.clipboard.writeText
+                ("Taggart Lake Trail - Grand Teton National Park");
+            }
+            function copyText248() 
+            {
+            navigator.clipboard.writeText
+                ("Table Mountain Trail - Jedediah Wilderness Area");
+            }
+            function copyText249() 
+            {
+            navigator.clipboard.writeText
+                ("Titcomb Lakes - Bridger Wilderness");
+            }
+            function copyText250() 
+            {
+            navigator.clipboard.writeText
+                ("Cloud Peak Summit - Bighorn National Forest");
+            }
+            function copyText251() 
+            {
+            navigator.clipboard.writeText
+                ("Sacred Rim - Bridger Wilderness");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Wyoming</h4>
+            <br>
+            <div class="map">
+                <img src="images/Wyoming-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Jenny Lake Trail - Grand Teton National Park</p></div>
+                <button onclick="copyText241();changeColor(this)">Copy</button><br>
+                <img src="hike-images/jenny lake image.jpg" alt="jenny lake image", height="500">
+                <h7><br>Coulter Sunderman/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=jenny+lake+wyoming&tbm=isch&ved=2ahUKEwjvuojQqbn-AhX7PkQIHRuMA48Q2-cCegQIABAA&oq=jenny+lake+&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoICAAQsQMQgwE6CAgAEIAEELEDOgcIABCKBRBDOgoIABCKBRCxAxBDOg0IABCKBRCxAxCDARBDOgsIABCABBCxAxCDAVDICliTFmDTImgAcAB4AIABrQGIAfMIkgEDOS4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=FqRBZO_XBfv9kPIPm5iO-Ag&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/jenny-lake-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Canyon Rim North to Inspiration Point - Yellowstone National Park</p></div>
+                <button onclick="copyText242();changeColor(this)">Copy</button><br>
+                <img src="hike-images/yellowstone falls image.jpg" alt="inspiration image", height="500">
+                <h7><br>Jaclyn_/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=yellowstone+falls+wyoming&tbm=isch&ved=2ahUKEwiL66Xcqrn-AhWkIkQIHaxKCIUQ2-cCegQIABAA&oq=yellowstone+falls+wy&gs_lcp=CgNpbWcQARgAMgUIABCABDoECCMQJzoHCAAQigUQQzoKCAAQigUQsQMQQzoICAAQgAQQsQM6BggAEAgQHlDTCViTNGDAPmgAcAB4AIABX4gBigeSAQIxMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=PKVBZIvdCqTFkPIPrJWhqAg&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/yellowstone-falls-crystal-falls-and-inspiration-point-via-north-rim-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Mystic Falls - Yellowstone National Park</p></div>
+                <button onclick="copyText243();changeColor(this)">Copy</button><br>
+                <img src="hike-images/mystic falls image.jpg" alt="mystic image", height="500">
+                <h7><br>Mike Jones/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=mystic+falls+wyoming&tbm=isch&ved=2ahUKEwi9l_Xoqrn-AhUVh-4BHeq9DZcQ2-cCegQIABAA&oq=mystic+falls+wyoming&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEOgYIABAHEB46CAgAEAUQBxAeOggIABAIEAcQHjoGCAAQBRAeOgcIABAYEIAEUO0JWIEkYNclaAFwAHgAgAFiiAHGCJIBAjE0mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=VqVBZL2UJ5WOur8P6vu2uAk&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/mystic-falls--2', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Medicine Bow Peak - Medicine Bow National Forest</p></div>
+                <button onclick="copyText244();changeColor(this)">Copy</button><br>
+                <img src="hike-images/medicine bow image.jpg" alt="medicine bow image", height="500">
+                <h7><br>Dana Gage/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=medicine+bow+peak+wyoming&tbm=isch&ved=2ahUKEwjZouXBq7n-AhWGNEQIHR7xC0gQ2-cCegQIABAA&oq=medicine+bow+peak+wyoming&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgjECc6BggAEAcQHjoICAAQCBAHEB5Q3wRYgSlgnipoBXAAeACAAWaIAcIFkgEDOC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=EaZBZJnWAYbpkPIPnuKvwAQ&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/medicine-bow-peak-via-lakes-trail-loop', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Devils Tower - Devils Tower National Monument</p></div>
+                <button onclick="copyText245();changeColor(this)">Copy</button><br>
+                <img src="hike-images/devils tower image.jpg" alt="devils tower image", height="500">
+                <h7><br>Jan Komrska/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=devils+tower+wyoming&tbm=isch&ved=2ahUKEwiS9OzGq7n-AhVEPUQIHdYlBmMQ2-cCegQIABAA&oq=devils+tower+wyoming&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BggAEAcQHjoHCAAQigUQQzoKCAAQigUQsQMQQ1CMCFjUO2CbRWgEcAB4AIABXYgB8w6SAQIyNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=G6ZBZNL6JsT6kPIP1suYmAY&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/devil-s-tower-trail--2', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. Lake Solitude and Misty Moon - Cloud Peak Wilderness</p></div>
+                <button onclick="copyText246();changeColor(this)">Copy</button><br>
+                <img src="hike-images/lake solitude image.webp" alt="solitude image", height="500">
+                <h7><br>Brendan Bombaci/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=lake+solitude+misty+moon+wyoming&tbm=isch&ved=2ahUKEwjSueucrLn-AhUWiO4BHTxCDkMQ2-cCegQIABAA&oq=lake+solitude+misty+moon+wyoming&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6CAgAEIAEELEDOgcIABCKBRBDOgYIABAHEB46CAgAEAUQBxAeOggIABAIEAcQHlCWB1jZbWDMcWgAcAB4AIABlgGIAZIRkgEEMjYuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=z6ZBZJKWO5aQur8PvIS5mAQ&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/lake-solitude-and-misty-moon-loop', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>7. Taggart Lake Trail - Grand Teton National Park</p></div>
+                <button onclick="copyText247();changeColor(this)">Copy</button><br>
+                <img src="hike-images/taggart lake image.webp" alt="taggart image", height="500">
+                <h7><br>Steff Lorenz/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=taggart+lake+wyoming&tbm=isch&ved=2ahUKEwiRveW7rLn-AhUNhu4BHXlXBL8Q2-cCegQIABAA&oq=taggart+wyoming&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjoECCMQJzoICAAQBRAHEB46BggAEAUQHjoGCAAQCBAeUNkIWJESYKQfaABwAHgAgAFXiAH1BJIBATiYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=EKdBZJH1NY2Mur8P-a6R-As&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/taggart-lake-loop--2', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>8. Table Mountain Trail - Jedediah Wilderness Area</p></div>
+                <button onclick="copyText248();changeColor(this)">Copy</button><br>
+                <img src="hike-images/table mt image.jpg" alt="jedediah table image", height="500">
+                <h7><br>James Z/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=table+mountain+wyoming&tbm=isch&ved=2ahUKEwjq1I71rLn-AhWZN0QIHXO5BycQ2-cCegQIABAA&oq=table+mount+wyoming&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMggIABAIEAcQHjoECCMQJzoGCAAQCBAeOgcIABAYEIAEULIHWKgcYLYoaABwAHgAgAGsAYgB3AmSAQM2LjaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=iadBZKrsBZnvkPIP8_KeuAI&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/table-mountain', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>9. Titcomb Lakes - Bridger Wilderness</p></div>
+                <button onclick="copyText249();changeColor(this)">Copy</button><br>
+                <img src="hike-images/titcomb image.jpg" alt="titcomb image", height="500">
+                <h7><br>Jacob Christiansen/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=titcomb+lakes+wyoming&tbm=isch&ved=2ahUKEwjgl8SOrbn-AhWiMUQIHUXLBnkQ2-cCegQIABAA&oq=titcomb+lakes+wyoming&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQCBAeOgcIABAYEIAEOgYIABAHEB46CAgAEAgQBxAeUNwIWOwiYMUjaABwAHgBgAHlAYgB6giSAQYxMi4wLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=vqdBZODAGKLjkPIPxZabyAc&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/titcomb-lakes-via-pole-creek-seneca-lake-and-indian-pass-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>10. Cloud Peak Summit - Bighorn National Forest</p></div>
+                <button onclick="copyText250();changeColor(this)">Copy</button><br>
+                <img src="hike-images/cloud peak image.jpg" alt="cloud peak image", height="500">
+                <h7><br>momo go/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=cloud+peak+summit+wyoming&tbm=isch&ved=2ahUKEwjZncnLrbn-AhUlMEQIHX8gBjwQ2-cCegQIABAA&oq=cloud+peak+summit+wyoming&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQBxAeOgcIABCKBRBDOggIABCABBCxAzoFCAAQgAQ6CAgAEAUQBxAeOggIABAIEAcQHjoGCAAQBRAeOgcIABAYEIAEUI4IWPU8YNRCaABwAHgAgAF2iAGJDJIBBDE5LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=PqhBZNmGGaXgkPIP_8CY4AM&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/cloud-peak-summit-via-battle-park-trailhead', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>11. Sacred Rim - Bridger Wilderness</p></div>
+                <button onclick="copyText251();changeColor(this)">Copy</button><br>
+                <img src="hike-images/sacred rim image.jpeg" alt="sacred rim image", height="500">
+                <h7><br>Megan McCabe/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=sacred+rim+wyoming&tbm=isch&ved=2ahUKEwjM4rqm-sX-AhUvOUQIHZ6uAPwQ2-cCegQIABAA&oq=sacred+rim+wyoming&gs_lcp=CgNpbWcQAzIFCAAQgAQ6CggAEIoFELEDEEM6BAgjECc6BwgAEIoFEEM6CAgAEIAEELEDOggIABCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQGBCABDoECAAQHjoGCAAQCBAeUJcJWPQqYKMtaABwAHgAgAFxiAGvDJIBBDE4LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=SkNIZMyVO6_ykPIPnt2C4A8&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/wyoming/sacred-rim', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

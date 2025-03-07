@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText183() 
+            {
+            navigator.clipboard.writeText
+                ("Charlies Bunion - Great Smokey Mountains National Park");
+            }
+            function copyText184() 
+            {
+            navigator.clipboard.writeText
+                ("Alum Cave Trail - Great Smokey Mountains National Park");
+            }
+            function copyText185() 
+            {
+            navigator.clipboard.writeText
+                ("Burgess Falls - Burgess Falls State Park");
+            }
+            function copyText186() 
+            {
+            navigator.clipboard.writeText
+                ("Cummins Falls - Cummins Falls State Park");
+            }
+            function copyText187() 
+            {
+            navigator.clipboard.writeText
+                ("Virgin Falls - Virgin Falls State Natural Area");
+            }
+            function copyText188() 
+            {
+            navigator.clipboard.writeText
+                ("Window Cliffs - Window Cliffs State Natural Area");
+            }
+            function copyText189() 
+            {
+            navigator.clipboard.writeText
+                ("Snoopers Rock - Prentice Cooper State Forest");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Tennessee</h4>
+            <br>
+            <div class="map">
+                <img src="images/Tennessee-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Charlies Bunion - Great Smokey Mountains National Park</p></div>
+                <button onclick="copyText183();changeColor(this)">Copy</button><br>
+                <img src="hike-images/charlies bunion image.webp" alt="charlies bunion image", height="500">
+                <h7><br>National Park Services Official Website</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=charlies+bunion+tennessee&sxsrf=APwXEddUcg1cmix_PvQUUPS4DX79yjgnhA:1682017933085&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjq2aCLlbn-AhUfJUQIHfAtDrYQ0pQJegQIBhAC&biw=1366&bih=625&dpr=1', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/charlies-bunion-via-appalachian-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Alum Cave Trail - Great Smokey Mountains National Park</p></div>
+                <button onclick="copyText184();changeColor(this)">Copy</button><br>
+                <img src="hike-images/alum cave image.jpg" alt="alum cave image", height="500">
+                <h7><br>Dominic Walick/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=alum+cave+mount+leconte+tennessee&tbm=isch&ved=2ahUKEwjd3u2vlbn-AhVYie4BHa6wA1kQ2-cCegQIABAA&oq=alum+cave+mount+leconte+tennessee&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQBxAeOgUIABCABFCMA1jvIWCbKmgAcAB4AIABU4gByAqSAQIxOZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=2Y5BZJ2OM9iSur8PruGOyAU&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/alum-cave-trail-to-mount-leconte', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Burgess Falls - Burgess Falls State Park</p></div>
+                <button onclick="copyText185();changeColor(this)">Copy</button><br>
+                <img src="hike-images/burgess falls image.jpg" alt="burgess falls image", height="500">
+                <h7><br>Photo + Travel/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=burgess+falls+state+park+tennessee&tbm=isch&ved=2ahUKEwik2cK6lbn-AhXvN0QIHQNBAUIQ2-cCegQIABAA&oq=burgess++tennessee&gs_lcp=CgNpbWcQARgCMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeOggIABAFEAcQHlCEB1jRD2DJIGgAcAB4AIABTogBjQWSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8I5BZKShDO_vkPIPg4KFkAQ&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/burgess-falls-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Cummins Falls - Cummins Falls State Park</p></div>
+                <button onclick="copyText186();changeColor(this)">Copy</button><br>
+                <img src="hike-images/cummins falls image.jpg" alt="cummins falls image", height="500">
+                <h7><br>Michael Hicks/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=cummins+falls+state+park+tennessee&tbm=isch&ved=2ahUKEwiu2_HIlrn-AhWDOEQIHZFyC9wQ2-cCegQIABAA&oq=cummins++tennessee&gs_lcp=CgNpbWcQARgCMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQCBAeMgcIABAYEIAEOggIABAIEAcQHlDoCFipEWD2JGgAcAB4AIABYIgBvgWSAQE5mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=GpBBZK7mLoPxkPIPkeWt4A0&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/cummins-falls-base-route-via-falls-overlook-trail-and-blackburn-fork', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Virgin Falls - Virgin Falls State Natural Area</p></div>
+                <button onclick="copyText187();changeColor(this)">Copy</button><br>
+                <img src="hike-images/virgin falls image.jpg" alt="virgin falls image", height="500">
+                <h7><br>Michael Hicks/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=virgin+falls+tennessee&tbm=isch&ved=2ahUKEwjjx4fslrn-AhXhPUQIHXT6ADUQ2-cCegQIABAA&oq=virgin+falls+tennessee&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIHCAAQGBCABDIHCAAQGBCABDoECCMQJzoKCAAQigUQsQMQQzoICAAQgAQQsQM6BwgAEIoFEENQwAdYpCNgqiRoAHAAeACAAZkBiAH_CpIBBDE1LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ZJBBZOOFIOH7kPIP9PSDqAM&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/virgin-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. Window Cliffs - Window Cliffs State Natural Area</p></div>
+                <button onclick="copyText188();changeColor(this)">Copy</button><br>
+                <img src="hike-images/window cliffs image.jpg" alt="window cliffs image", height="500">
+                <h7><br>Ted Vaughn/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=window+cliffs+tennessee&tbm=isch&ved=2ahUKEwishomKl7n-AhXxOkQIHdv3BsMQ2-cCegQIABAA&oq=window++tennessee&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMggIABAFEAcQHjoFCAAQgAQ6BggAEAgQHjoHCAAQGBCABFDZBljmD2CjHmgAcAB4AIABowGIAdUGkgEDNC40mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=o5BBZOyoHPH1kPIP2--bmAw&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/window-cliffs', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>7. Snoopers Rock - Prentice Cooper State Forest</p></div>
+                <button onclick="copyText189();changeColor(this)">Copy</button><br>
+                <img src="hike-images/snoopers rock image.webp" alt="snoopers rock image", height="500">
+                <h7><br>Chris Guess/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=snoopers+rock+tennessee&tbm=isch&ved=2ahUKEwjr3baml7n-AhVYHkQIHbdIDFEQ2-cCegQIABAA&oq=snoopers+rock+tennessee&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoGCAAQBxAeOggIABAFEAcQHjoICAAQCBAHEB5QuBBY9iFgpyZoAHAAeACAAakBiAGJCZIBBDEzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=3pBBZOv2ONi8kPIPt5GxiAU&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/tennessee/snoopers-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

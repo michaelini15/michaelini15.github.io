@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText142() 
+            {
+            navigator.clipboard.writeText
+                ("Hanging Rock - Hanging Rock State Park");
+            }
+            function copyText143() 
+            {
+            navigator.clipboard.writeText
+                ("Grandfather Trifecta - Grandfather Mountain Stewardship Foundation");
+            }
+            function copyText144() 
+            {
+            navigator.clipboard.writeText
+                ("Table Rock Summit Trail - Linville Gorge Wilderness");
+            }
+            function copyText145() 
+            {
+            navigator.clipboard.writeText
+                ("Stone Mountain Loop - Stone Mountain State Park");
+            }
+            function copyText146() 
+            {
+            navigator.clipboard.writeText
+                ("Looking Glass Rock - Pisgah National Forest");
+            }
+            function copyText147() 
+            {
+            navigator.clipboard.writeText
+                ("Whiteside Mountain - Nantahala National Forest");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">North Carolina</h4>
+            <br>
+            <div class="map">
+                <img src="images/North-Carolina-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Hanging Rock - Hanging Rock State Park</p></div>
+                <button onclick="copyText142();changeColor(this)">Copy</button><br>
+                <img src="hike-images/hanging rock nc image.jpg" alt="nc hanging rock image", height="500">
+                <h7><br></h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=hanging+rock+north+carolina&tbm=isch&ved=2ahUKEwip1ODT4cX-AhUFK0QIHZMNB_UQ2-cCegQIABAA&oq=hanging+rock+north+carolina&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIGCAAQBxAeMgYIABAFEB4yBwgAEBgQgAQ6BAgjECc6BggAEAgQHjoICAAQBxAeEAo6CAgAEAUQBxAeOggIABAIEAcQHlDJB1iAFWCiGGgAcAB4AIABcYgB1wiSAQQxMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=cylIZOnOBIXWkPIPk5ucqA8&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/hanging-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Grandfather Trifecta - Grandfather Mountain Stewardship Foundation</p></div>
+                <button onclick="copyText143();changeColor(this)">Copy</button><br>
+                <img src="hike-images/grandfather image.jpg" alt="grandfather image", height="500">
+                <h7><br>Josh Temper/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="verylong">Very Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=grandfather+trifecta+nc&tbm=isch&ved=2ahUKEwiY5Nmf6Lb-AhXtK0QIHbJUCkEQ2-cCegQIABAA&oq=grandfather+trifecta+nc&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQCBAeOgYIABAHEB46BQgAEIAEOggIABAFEAcQHlDZBljENWCoNmgAcAB4AIABbogBtAySAQQyMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=GFNAZJj4Ne3XkPIPsqmpiAQ&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/grandfather-trifecta', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Table Rock Summit Trail - Linville Gorge Wilderness</p></div>
+                <button onclick="copyText144();changeColor(this)">Copy</button><br>
+                <img src="hike-images/table rock image.jpg" alt="linville table image", height="500">
+                <h7><br>Danny Richard Buxton/Only in North Carolina</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=table+rock+nc&tbm=isch&ved=2ahUKEwjjwYi16bb-AhV9K0QIHQXxAlIQ2-cCegQIABAA&oq=table+rock+nc&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBRAeMgYIABAFEB4yBwgAEBgQgAQ6BAgjECc6CAgAEAgQBxAeOgQIABAeOgYIABAIEB46CAgAEAUQBxAeUPkGWK8xYPZCaAhwAHgAgAF0iAGCC5IBBDE1LjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=UlRAZOPQB_3WkPIPheKLkAU&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/table-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Stone Mountain Loop - Stone Mountain State Park</p></div>
+                <button onclick="copyText145();changeColor(this)">Copy</button><br>
+                <img src="hike-images/stone mt image.webp" alt="roaring gap image", height="500">
+                <h7><br>Tony B/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=stone+mountain+nc&tbm=isch&ved=2ahUKEwjnkK6l6rb-AhWwOEQIHf3fBrAQ2-cCegQIABAA&oq=stone+mountain+nc&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BggAEAcQHjoGCAAQCBAeOgcIABAYEIAEUJgHWLsoYNMxaAFwAHgAgAFhiAHSCZIBAjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=PVVAZKf-JbDxkPIP_b-bgAs&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/stone-mountain-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Looking Glass Rock - Pisgah National Forest</p></div>
+                <button onclick="copyText146();changeColor(this)">Copy</button><br>
+                <img src="hike-images/looking glass image.jpg" alt="looking glass image", height="500">
+                <h7><br>Valerie/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=looking+glass+rock+north+carolina&tbm=isch&ved=2ahUKEwi4s9au2sX-AhWcPkQIHQ3GDxoQ2-cCegQIABAA&oq=looking+glass+rock+north+carolina&gs_lcp=CgNpbWcQAzIFCAAQgAQyBwgAEBgQgAQ6BAgjECc6BwgAEIoFEEM6CggAEIoFELEDEEM6CAgAEIAEELEDOgYIABAIEB5QxQZYmDtgozxoAHAAeACAAbYBiAGLF5IBBDMwLjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=ziFIZLiUEJz9kPIPjYy_0AE&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/looking-glass-rock-trail?search=true', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. Whiteside Mountain - Nantahala National Forest</p></div>
+                <button onclick="copyText147();changeColor(this)">Copy</button><br>
+                <img src="hike-images/whiteside image.jpg" alt="whiteside mt image", height="500">
+                <h7><br>Frank Kehren/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?sca_esv=31eeb548d185449e&rlz=1C1CHBF_enUS905US905&sxsrf=ADLYWIIOb6nDJ_wviQkz1FC7FeitzpZyYA:1736812534129&q=whiteside+mountain+north+carolina&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5_cJreBOGYq6XK4Eyx3ZWDATz8ktRJPxHourv3Nbu06MD3xHwEojo9QVYHmuamK8ICfZOws7iGyY4T2O3I7N9V3f2AIBecNamwub-mg7asSK3e5q_yxJkIZicshYllgAPg_XxcG6sJN46giumYJjyu21q9PGEWraQxliK6j6yF4lgIXlw&sa=X&sqi=2&ved=2ahUKEwjGoo3x8vOKAxVzBjQIHUfQJ2wQtKgLegQIFBAB&biw=1366&bih=607&dpr=1', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/north-carolina/whiteside-mountain-national-recreation-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText171() 
+            {
+            navigator.clipboard.writeText
+                ("Table Rock Trail - Table Rock State Park");
+            }
+            function copyText172() 
+            {
+            navigator.clipboard.writeText
+                ("Rainbow Falls - Jone Gap State Park");
+            }
+            function copyText173() 
+            {
+            navigator.clipboard.writeText
+                ("Peachtree Rock - Peachtree Rock Heritage Preserve");
+            }
+            function copyText174() 
+            {
+            navigator.clipboard.writeText
+                ("Yellow Branch Falls - Sumter National Forest");
+            }
+            function copyText175() 
+            {
+            navigator.clipboard.writeText
+                ("Raven Cliff Falls - Caesars Head State Park");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">South Carolina</h4>
+            <br>
+            <div class="map">
+                <img src="images/South-Carolina-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Table Rock Trail - Table Rock State Park</p></div>
+                <button onclick="copyText171();changeColor(this)">Copy</button><br>
+                <img src="hike-images/table rock sc image.jpg" alt="pickens table image", height="500">
+                <h7><br>Dzmitry (Dima) Parul/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=table+rock+south+carolina&tbm=isch&ved=2ahUKEwiqx7Cq57f-AhUnNkQIHTM3BEIQ2-cCegQIABAA&oq=table+rock+south+&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEOgQIIxAnOgcIABCKBRBDOgoIABCKBRCxAxBDOggIABCABBCxA1DKD1jANmDtQmgAcAB4AIABYogB6wqSAQIxN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=WthAZKqyI6fskPIPs-6QkAQ&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/south-carolina/table-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Rainbow Falls - Jone Gap State Park</p></div>
+                <button onclick="copyText172();changeColor(this)">Copy</button><br>
+                <img src="hike-images/rainbow falls image.jpg" alt="cleveland rainbow image", height="500">
+                <h7><br>Scott Oves/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=rainbow+falls+south+carolina&tbm=isch&ved=2ahUKEwjQ2Mfc57f-AhVehu4BHYsUDTcQ2-cCegQIABAA&oq=rainbow++south+carolina&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQCBAeMgcIABAYEIAEOgUIABCABDoICAAQBRAHEB46CAgAEAgQBxAeUIALWNowYIc7aAFwAHgAgAFOiAHLBZIBAjEwmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=w9hAZJDrMd6Mur8Pi6m0uAM&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/south-carolina/rainbow-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Peachtree Rock - Peachtree Rock Heritage Preserve</p></div>
+                <button onclick="copyText173();changeColor(this)">Copy</button><br>
+                <img src="hike-images/peachtree image.jpg" alt="peachtree rock image", height="500">
+                <h7><br>Kristen S/Tripadvisor</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=peachtree+rock+south+carolina&tbm=isch&ved=2ahUKEwjP2_G26Lf-AhUCh-4BHdMrAOoQ2-cCegQIABAA&oq=peachtree++south+carolina&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjoECCMQJzoHCAAQGBCABDoICAAQBRAHEB46CAgAEAgQBxAeOgUIABCABDoGCAAQBRAeOgYIABAIEB5QzwdYhhdgmCFoAHAAeACAAVSIAZcGkgECMTGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=gdlAZI-XD4KOur8P09eA0A4&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/south-carolina/peachtree-rock', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Yellow Branch Falls - Sumter National Forest</p></div>
+                <button onclick="copyText174();changeColor(this)">Copy</button><br>
+                <img src="hike-images/yellow branch image.jpg" alt="yellow branch image", height="500">
+                <h7><br>Brenda Wiley/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=yellow+branch+falls+south+carolina&tbm=isch&ved=2ahUKEwicuePm6Lf-AhW4OUQIHcVoAC8Q2-cCegQIABAA&oq=yellow+bran+south+carolina&gs_lcp=CgNpbWcQARgAMgYIABAHEB46BAgjECc6BQgAEIAEOggIABAFEAcQHjoICAAQCBAHEB5QzAhY3Btg7ydoAHAAeACAAXeIAfIJkgEDMy45mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=5dlAZNyyKbjzkPIPxdGB-AI&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/south-carolina/yellow-branch-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Raven Cliff Falls - Caesars Head State Park</p></div>
+                <button onclick="copyText175();changeColor(this)">Copy</button><br>
+                <img src="hike-images/raven cliff image.jpg" alt="raven cliff image", height="500">
+                <h7><br>Brenda Wiley/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=raven+cliff+falls+south+carolina&tbm=isch&ved=2ahUKEwjlwr2T6bf-AhXAMEQIHU9KDCoQ2-cCegQIABAA&oq=raven+cliff+falls+south+carolina&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BggAEAcQHjoICAAQCBAHEB46BwgAEBgQgARQtwlY1xxgth1oAHAAeACAAV-IAbMHkgECMTKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Q9pAZKWVGsDhkPIPz5Sx0AI&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/south-carolina/raven-cliff-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

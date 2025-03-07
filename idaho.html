@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText54() 
+            {
+            navigator.clipboard.writeText
+                ("Big Elk Creek - Swan Valley");
+            }
+            function copyText55() 
+            {
+            navigator.clipboard.writeText
+                ("Saddleback Lake - Sawtooths");
+            }
+            function copyText56() 
+            {
+            navigator.clipboard.writeText
+                ("Loon Lake B-23 Dragon Bomber - McCall");
+            }
+            function copyText57() 
+            {
+            navigator.clipboard.writeText
+                ("Goldbug Hot Springs - Salmon");
+            }
+            function copyText58() 
+            {
+            navigator.clipboard.writeText
+                ("Bruneau Dunes - Bruneau");
+            }
+            function copyText59() 
+            {
+            navigator.clipboard.writeText
+                ("Boulder Lake - Payette National Forest");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Idaho</h4>
+            <br>
+            <div class="map">
+                <img src="images/Idaho-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Big Elk Creek - Swan Valley</p></div>
+                <button onclick="copyText54();changeColor(this)">Copy</button><br>
+                <img src="hike-images/big elk creek image.jpg" alt="big elk image", height="500">
+                <h7><br>Dane Larsen/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=big+elk+creek+idaho&tbm=isch&ved=2ahUKEwigsbS35rT-AhWih-4BHdQFBNkQ2-cCegQIABAA&oq=big+elk+cree&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBwgAEBgQgAQyBwgAEBgQgAQyBwgAEBgQgAQyBwgAEBgQgAQyBwgAEBgQgAQ6BAgjECc6CAgAEIAEELEDOgcIABCKBRBDOgoIABCKBRCxAxBDUKUJWN8hYLo8aABwAHgAgAF5iAG_CJIBBDEyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=wkQ_ZKDID6KPur8P1IuQyA0&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/big-elk-creek-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Saddleback Lake - Sawtooths</p></div>
+                <button onclick="copyText55();changeColor(this)">Copy</button><br>
+                <img src="hike-images/saddleback lake image.jpg" alt="saddleback image", height="500">
+                <h7><br>brandon swanson/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=saddleback+lake+idaho&tbm=isch&ved=2ahUKEwiYusT95rT-AhWdhu4BHVSPCekQ2-cCegQIABAA&oq=saddleback+lak&gs_lcp=CgNpbWcQARgBMgUIABCABDIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeOgQIIxAnOgcIABAYEIAEOggIABCABBCxAzoKCAAQigUQsQMQQ1CSCFj8JWDSPGgBcAB4AIABkwGIAZ0KkgEEMTAuNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=VUU_ZNi7E52Nur8P1J6myA4&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/redfish-lake-to-saddleback-lake', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Loon Lake B-23 Dragon Bomber - McCall</p></div>
+                <button onclick="copyText56();changeColor(this)">Copy</button><br>
+                <img src="hike-images/loon lake image.webp" alt="dragon bomber image", height="500">
+                <h7><br>goochrules/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=loon+lake+loop+trail+idaho&tbm=isch&ved=2ahUKEwjehKSW6bT-AhX3O0QIHWjfBtYQ2-cCegQIABAA&oq=loon+lake+loop+trail+idaho&gs_lcp=CgNpbWcQAzoECCMQJzoGCAAQCBAeOggIABAIEAcQHjoFCAAQgAQ6BggAEAUQHjoHCAAQGBCABFD2BVidMWDrMmgDcAB4AIABnwGIAZkMkgEEMTkuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=okc_ZN6rBff3kPIP6L6bsA0&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/loon-lake-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Goldbug Hot Springs - Salmon</p></div>
+                <button onclick="copyText57();changeColor(this)">Copy</button><br>
+                <img src="hike-images/goldbug hot springs image.jpg" alt="goldbug image", height="500">
+                <h7><br>Troy Smith/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=goldbug+hot+springs+idaho&tbm=isch&ved=2ahUKEwjF7fTD6bT-AhUvMEQIHXrpCmMQ2-cCegQIABAA&oq=goldbug+hot+springs+idaho&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIGCAAQBRAeMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEOgQIIxAnUJ8FWJ8FYPwFaABwAHgAgAFNiAGYAZIBATKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=AUg_ZIXpL6_gkPIP-tKrmAY&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/goldbug-elk-bend-hot-springs', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Bruneau Dunes - Bruneau</p></div>
+                <button onclick="copyText58();changeColor(this)">Copy</button><br>
+                <img src="hike-images/bruneau dunes image.jpg" alt="dunes image", height="500">
+                <h7><br>Nicole Williams/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=bruneau+dunes+idaho&tbm=isch&ved=2ahUKEwizw_XJ6bT-AhXXOUQIHXOzC2MQ2-cCegQIABAA&oq=bruneau+dunes+&gs_lcp=CgNpbWcQARgAMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABAeOgYIABAHEB46BggAEAgQHjoHCAAQGBCABDoECCMQJzoHCAAQigUQQzoICAAQgAQQsQM6CggAEIoFELEDEENQ7QdYvyVglDFoAHAAeACAAVyIAawJkgECMTWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=Dkg_ZLOEF9fzkPIP8-aumAY&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/bruneau-dunes-loop', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. Boulder Lake - Payette National Forest</p></div>
+                <button onclick="copyText59();changeColor(this)">Copy</button><br>
+                <img src="hike-images/boulder lake image.webp" alt="blouder city image", height="500">
+                <h7><br>Nicholas D/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=boulder+lake+idaho&tbm=isch&ved=2ahUKEwiBivrt6bT-AhVtOkQIHcYFBxIQ2-cCegQIABAA&oq=boulder+lake+&gs_lcp=CgNpbWcQARgAMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgQIIxAnOgYIABAIEB46CAgAEIAEELEDOgcIIxDqAhAnOgoIABCKBRCxAxBDUOAIWNcmYOIzaAJwAHgAgAGzAYgB_wmSAQQxMS4zmAEAoAEBqgELZ3dzLXdpei1pbWewAQrAAQE&sclient=img&ei=WUg_ZMH5Oe30kPIPxouckAE&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/idaho/boulder-lake-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText213() 
+            {
+            navigator.clipboard.writeText
+                ("Little Stony Falls - Jefferson National Forest");
+            }
+            function copyText214() 
+            {
+            navigator.clipboard.writeText
+                ("Mary's Rock - Shenandoah National Park");
+            }
+            function copyText215() 
+            {
+            navigator.clipboard.writeText
+                ("Dragon's Tooth - Appalachian Trail");
+            }
+            function copyText216() 
+            {
+            navigator.clipboard.writeText
+                ("McAfee Knob - Appalachian Trail");
+            }
+            function copyText217() 
+            {
+            navigator.clipboard.writeText
+                ("Tinker Cliffs - Appalachian Trail");
+            }
+            function copyText218() 
+            {
+            navigator.clipboard.writeText
+                ("St. Mary's Falls - Raphine");
+            }
+            function copyText219() 
+            {
+            navigator.clipboard.writeText
+                ("Old Rag Mountain - Shenandoah National Park");
+            }
+            function copyText220() 
+            {
+            navigator.clipboard.writeText
+                ("Wilburn Ridge Trail - Grayson Highlands State Park");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Virginia</h4>
+            <br>
+            <div class="map">
+                <img src="images/Virginia-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Little Stony Falls - Jefferson National Forest</p></div>
+                <button onclick="copyText213();changeColor(this)">Copy</button><br>
+                <img src="hike-images/little stony image.jpg" alt="little stony image", height="500">
+                <h7><br>Mary Beth & Jerry Sheets/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=little+stony+falls+virginia&tbm=isch&ved=2ahUKEwjW8uSIoLn-AhU5PUQIHccLCi0Q2-cCegQIABAA&oq=little+stony+falls+virginia&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgjECc6BggAEAgQHjoICAAQgAQQsQM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOgcIABAYEIAEOgQIABAeULMGWLUpYMIraABwAHgAgAGNAYgBtBKSAQQyNi4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=EJpBZNaqKrn6kPIPx5eo6AI&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/little-stony-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Mary's Rock - Shenandoah National Park</p></div>
+                <button onclick="copyText214();changeColor(this)">Copy</button><br>
+                <img src="hike-images/marys rock image.jpg" alt="marys rock image", height="500">
+                <h7><br>Joseph Walker/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=marys+rock+virginia&tbm=isch&ved=2ahUKEwipj-S7oLn-AhU8NUQIHVS7Co8Q2-cCegQIABAA&oq=marys+rock+virginia&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoFCAAQgAQ6BggAEAcQHjoICAAQBRAHEB46CQgAEBgQgAQQClDNBlilGGC9HGgAcAB4AIABUogByAaSAQIxMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=e5pBZOnlJrzqkPIP1Paq-Ag&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/marys-rock-via-appalachian-trail-north-approach', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Dragon's Tooth - Appalachian Trail</p></div>
+                <button onclick="copyText215();changeColor(this)">Copy</button><br>
+                <img src="hike-images/dragon tooth image.jpg" alt="dragons tooth image", height="500">
+                <h7><br>Keith King/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=dragon%27s+tooth+virginia&tbm=isch&hl=en&sa=X&ved=2ahUKEwiXgeOMobn-AhUHPkQIHR8IDk4QBXoECAEQVw&biw=1349&bih=625', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/dragons-tooth-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. McAfee Knob - Appalachian Trail</p></div>
+                <button onclick="copyText216();changeColor(this)">Copy</button><br>
+                <img src="hike-images/mcafee knob image.jpg" alt="mcafee knob image", height="500">
+                <h7><br>Blair Micheli/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=mcafee+knob+virginia&tbm=isch&ved=2ahUKEwinufqNobn-AhXDiO4BHWoYDQEQ2-cCegQIABAA&oq=mcafee+knob+virginia&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAUQHjIHCAAQGBCABDIHCAAQGBCABDoECCMQJzoGCAAQCBAeOgYIABAHEB46BwgAEIoFEEM6CAgAEIAEELEDOgoIABCKBRCxAxBDOggIABAFEAcQHlCeCFjjQmDARWgCcAB4AIABZYgBywmSAQQxNS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=J5tBZOeJO8ORur8P6rC0CA&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/mcafee-knob-appalachian-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Tinker Cliffs - Appalachian Trail</p></div>
+                <button onclick="copyText217();changeColor(this)">Copy</button><br>
+                <img src="hike-images/tinker cliff image.jpg" alt="tinker cliffs image", height="500">
+                <h7><br>John Hayes/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=tinker+cliffs+virginia&tbm=isch&ved=2ahUKEwi-p9Kwobn-AhV_iO4BHfYZBrYQ2-cCegQIABAA&oq=tinker+virginia&gs_lcp=CgNpbWcQARgAMgYIABAHEB4yBggAEAcQHjIGCAAQCBAeOgQIIxAnOgcIABAYEIAEOggIABAIEAcQHlD5BljjDGCjGmgAcAB4AIABUYgBjASSAQE3mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=cJtBZL6vK_-Qur8P9rOYsAs&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/tinker-cliffs-via-andy-layne-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. St. Mary's Falls - Raphine</p></div>
+                <button onclick="copyText218();changeColor(this)">Copy</button><br>
+                <img src="hike-images/st mary falls image.jpg" alt="raphine marys image", height="500">
+                <h7><br>Jacob Martin/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=st+mary%27s+falls+virginia&tbm=isch&hl=en&sa=X&ved=2ahUKEwjBsuz5obn-AhX7iO4BHRn_ClEQBXoECAEQQQ&biw=1349&bih=625', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/saint-marys-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>7. Old Rag Mountain - Shenandoah National Park</p></div>
+                <button onclick="copyText219();changeColor(this)">Copy</button><br>
+                <img src="hike-images/old rag image.jpg" alt="old rag image", height="500">
+                <h7><br>Sin Jeon/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=old+rag+mountain+virginia&tbm=isch&ved=2ahUKEwi4rYv7obn-AhULMEQIHTAhB4cQ2-cCegQIABAA&oq=old+rag+mountain+virginia&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIHCAAQGBCABDIHCAAQGBCABDoECCMQJzoGCAAQCBAeOgcIABCKBRBDOggIABAIEAcQHlCqBljkGmC1IGgAcAB4AIABWIgBogqSAQIxN5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=DJxBZLj3MovgkPIPsMKcuAg&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/old-rag-mountain-loop-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>8. Wilburn Ridge Trail - Grayson Highlands State Park</p></div>
+                <button onclick="copyText220();changeColor(this)">Copy</button><br>
+                <img src="hike-images/wilburn ridge image.jpg" alt="wilburn image", height="500">
+                <h7><br>David Martin/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=wilburn+ridge+virginia&tbm=isch&ved=2ahUKEwiHz_ycorn-AhVFh-4BHdPxCkUQ2-cCegQIABAA&oq=wilburn+ridge+virginia&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoGCAAQCBAeOgUIABCABDoGCAAQBxAeUMkIWM8cYMkgaABwAHgAgAFdiAG5CJIBAjE0mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=U5xBZMfZNsWOur8P0-OrqAQ&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/virginia/wilburn-ridge-via-appalachian-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

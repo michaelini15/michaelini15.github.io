@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText114() 
+            {
+            navigator.clipboard.writeText
+                ("Black Mountain - Sloan Canyon Natural Conservation Area");
+            }
+            function copyText115() 
+            {
+            navigator.clipboard.writeText
+                ("Mount Rose - Incline Village");
+            }
+            function copyText116() 
+            {
+            navigator.clipboard.writeText
+                ("Calico Tanks - Red Rock Canyon Natural Conservation Area");
+            }
+            function copyText117() 
+            {
+            navigator.clipboard.writeText
+                ("Mary Jane Falls - Mount Charleston Wilderness");
+            }
+            function copyText118() 
+            {
+            navigator.clipboard.writeText
+                ("Wheeler Peak - Great Basin National Park");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">Nevada</h4>
+            <br>
+            <div class="map">
+                <img src="images/Nevada-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Black Mountain - Sloan Canyon Natural Conservation Area</p></div>
+                <button onclick="copyText114();changeColor(this)">Copy</button><br>
+                <img src="hike-images/black mountain image.jpg" alt="black mountain image", height="500">
+                <h7><br>Nicole P/Yelp</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=black+mountain+sloan+canyon+nevada&tbm=isch&ved=2ahUKEwivlpPj3Lb-AhUGNEQIHax6B0AQ2-cCegQIABAA&oq=black+mountain+sloan+canyon+nevada&gs_lcp=CgNpbWcQAzoECCMQJzoHCAAQGBCABFDVBViQJWCeJ2gBcAB4AIABZogB4AiSAQQxNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=EUdAZO_JBobokPIPrPWdgAQ&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/nevada/black-mountain-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Mount Rose - Incline Village</p></div>
+                <button onclick="copyText115();changeColor(this)">Copy</button><br>
+                <img src="hike-images/mt rose image.jpg" alt="mount rose image", height="500">
+                <h7><br>Jennifer T/Yelp</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=mount+rose+nevada&tbm=isch&ved=2ahUKEwihnKTq3Lb-AhVGOUQIHcCDCiwQ2-cCegQIABAA&oq=mount+rose+nevada&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEMgcIABAYEIAEOgQIIxAnOgYIABAHEB46CAgAEAUQBxAeUKAHWIoXYJkdaABwAHgAgAFYiAHCBpIBAjExmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=IEdAZKGMBMbykPIPwIeq4AI&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/nevada/mount-rose-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Calico Tanks - Red Rock Canyon Natural Conservation Area</p></div>
+                <button onclick="copyText116();changeColor(this)">Copy</button><br>
+                <img src="hike-images/calico image.jpg" alt="calico tanks image", height="500">
+                <h7><br>Forest and Kim Starr/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=calico+tanks+trail+nevada&tbm=isch&ved=2ahUKEwi9tPe03bb-AhVAMUQIHU2hBXoQ2-cCegQIABAA&oq=calico+tanks+trail+nevada&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoFCAAQgAQ6CAgAEIAEELEDOggIABCxAxCDAToHCAAQigUQQzoKCAAQigUQsQMQQzoGCAAQBRAeOgYIABAIEB46BAgAEB5QsglYpkVgrkZoAHAAeACAAWKIAbkPkgECMjaYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=vEdAZL3mJcDikPIPzcKW0Ac&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/nevada/calico-tanks-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Mary Jane Falls - Mount Charleston Wilderness</p></div>
+                <button onclick="copyText117();changeColor(this)">Copy</button><br>
+                <img src="hike-images/mary jane image.webp" alt="mary jane image", height="500">
+                <h7><br>Cathy M/Yelp</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=mary+jane+falls+nevada&tbm=isch&ved=2ahUKEwjdgaHn3bb-AhWaH0QIHRrfB2EQ2-cCegQIABAA&oq=mary+jane+falls+nevada&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6CAgAEIAEELEDOgcIABCKBRBDOgoIABCKBRCxAxBDOgsIABCABBCxAxCDAToICAAQsQMQgwFQzQZY7C5gijBoAHAAeACAAWyIAfMNkgEEMjIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=JkhAZN3WCZq_kPIPmr6fiAY&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/nevada/mary-jane-falls-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Wheeler Peak - Great Basin National Park</p></div>
+                <button onclick="copyText118();changeColor(this)">Copy</button><br>
+                <img src="hike-images/wheeler peak image.jpg" alt="wheeler peak image", height="500">
+                <h7><br>Frank Kovalchek/Flickr</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=wheeler+peak+nevada&tbm=isch&ved=2ahUKEwj1vpes3rb-AhX6PkQIHXLQDBsQ2-cCegQIABAA&oq=wheeler+peak+&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoGCAAQCBAeOggIABCABBCxAzoHCAAQigUQQ1C0B1i1GGCnL2gAcAB4AIABXYgBrwiSAQIxNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=tkhAZPWLK_r9kPIP8qCz2AE&bih=625&biw=1366', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/nevada/wheeler-peak-trail-via-stella-lake-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

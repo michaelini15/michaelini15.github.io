@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5360229508213794"
+     crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="x icon" href="images/tab-logo.png">
+        <title>Bucket List Hikes</title>
+
+        <style>
+            tr[data-href]
+            {
+                cursor: pointer;
+            }
+            #sample
+            {
+                display: inline-block;
+            }
+            p
+            {
+                padding-right: 10px;
+            }
+            @media(orientation: portrait)
+            {
+                p
+                {
+                padding-right: 15px;
+                }
+                button
+                {
+                    width: 147.5px;
+                    height: 60px;
+                    font-size: 35px;
+                }
+            }
+        </style>
+
+        <nav>
+            <ul class="sidebar">
+                <br><br><br>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="hike-list.html">My Hikes</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="about.html">About Us</a></li>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <li class="sdbar"><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a class="logo" href="index.html"><img src="images/blh-logo.png"></a></li>
+                <li class="hideOnMobile"><a href="hike-list.html">My Hikes</a></li>
+                <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="90" viewBox="0 -960 960 960" width="90" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            function showSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar()
+            {
+                const sidebar=document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+            function copyText231() 
+            {
+            navigator.clipboard.writeText
+                ("Seneca Rocks - Spruce Knob-Seneca Rocks National Recreation Area");
+            }
+            function copyText232() 
+            {
+            navigator.clipboard.writeText
+                ("Endless Wall - New River Gorge National Park");
+            }
+            function copyText233() 
+            {
+            navigator.clipboard.writeText
+                ("Big Schloss - George Washington Forest");
+            }
+            function copyText234() 
+            {
+            navigator.clipboard.writeText
+                ("Glade Creek Trail - New River Gorge National Park");
+            }
+            function copyText235() 
+            {
+            navigator.clipboard.writeText
+                ("Castle Rock Trail - New River Gorge National Park");
+            }
+            function copyText236() 
+            {
+            navigator.clipboard.writeText
+                ("Summersville Lake - Summerville Lake State Wildlife Area");
+            }
+            function changeColor(event)
+            {
+                var color = '#37bf1b';
+                event.style.backgroundColor=color;
+            }
+        </script>
+
+        <div class="whtbar"></div>
+
+        <main class="container-p-5">
+
+            <div class="hero">
+                <img src="images/new-mediumblue-logo.png" alt="moveable logo" id="moveable-logo">
+            </div>
+    </head>
+    <body>
+            <div class="hero5">
+            <br>
+            <br>
+            <h4 class="about">West Virgina</h4>
+            <br>
+            <div class="map">
+                <img src="images/West-Virginia-map.png" alt="" srcset="">
+            </div>
+            <ul>
+                <div id="sample"><p>1. Seneca Rocks - Spruce Knob-Seneca Rocks National Recreation Area</p></div>
+                <button onclick="copyText231();changeColor(this)">Copy</button><br>
+                <img src="hike-images/seneca image.webp" alt="seneca rocks image", height="500">
+                <h7><br>John Trotto/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=seneca+rocks+west+virginia&tbm=isch&ved=2ahUKEwj2h5zjpbn-AhWZhu4BHawfBdoQ2-cCegQIABAA&oq=seneca+rocks+&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoHCAAQigUQQzoICAAQgAQQsQM6CggAEIoFELEDEENQnA5Y6h5g7ixoAHAAeACAAViIAcQIkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=DKBBZPbRH5mNur8PrL-U0A0&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/seneca-rocks', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>2. Endless Wall - New River Gorge National Park</p></div>
+                <button onclick="copyText232();changeColor(this)">Copy</button><br>
+                <img src="hike-images/endless wall image.jpg" alt="endless wall image", height="500">
+                <h7><br>Travis Castle/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=endless+wall+west+virginia&tbm=isch&ved=2ahUKEwixlu6Jprn-AhUfOkQIHWY8DxUQ2-cCegQIABAA&oq=endless+wall+west+virginia&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjoECCMQJzoGCAAQCBAeOgcIABAYEIAEUMAHWLYZYLYfaABwAHgAgAFXiAHyB5IBAjEzmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=XaBBZPHzIZ_0kPIP5vi8qAE&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/endless-wall', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>3. Big Schloss - George Washington Forest</p></div>
+                <button onclick="copyText233();changeColor(this)">Copy</button><br>
+                <img src="hike-images/big schloss image.jpeg" alt="big schloss image", height="500">
+                <h7><br>Gary Utz/Alltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="moderate">Moderate</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=big+schloss+west+virginia&tbm=isch&ved=2ahUKEwj9pZ2fprn-AhVih-4BHenFCFcQ2-cCegQIABAA&oq=big+schloss+west+virginia&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoGCAAQCBAeOgoIABCKBRCxAxBDOggIABCABBCxAzoFCAAQgAQ6BggAEAcQHjoICAAQCBAHEB5QpwxYki1gxjJoAHAAeACAAWCIAeoIkgECMTSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=iqBBZP24FuKOur8P6YujuAU&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/big-schloss-via-wolf-gap-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>4. Glade Creek Trail - New River Gorge National Park</p></div>
+                <button onclick="copyText234();changeColor(this)">Copy</button><br>
+                <img src="hike-images/glade creek image.jpg" alt="glade creek image", height="500">
+                <h7><br>Nora Sweeney/Google Maps</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="long">Long</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=glade+creek+trail+west+virginia&tbm=isch&ved=2ahUKEwiVqdnzprn-AhWkNEQIHV7kDUYQ2-cCegQIABAA&oq=glade+creek+trail+west+virginia&gs_lcp=CgNpbWcQAzIHCAAQGBCABDoECCMQJzoGCAAQCBAeUIUEWIQQYOgRaABwAHgAgAFTiAGpBJIBATeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=O6FBZNWfH6TpkPIP3si3sAQ&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/glade-creek-trail-to-kate-s-falls', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>5. Castle Rock Trail - New River Gorge National Park</p></div>
+                <button onclick="copyText235();changeColor(this)">Copy</button><br>
+                <img src="hike-images/castle rock trail wv image.jpg" alt="grandview gorge image", height="500">
+                <h7><br>alman4869/Tripadvisor</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=castle+rock+trail+west+virginia&tbm=isch&ved=2ahUKEwi5lYaJp7n-AhW5LEQIHUlEBFQQ2-cCegQIABAA&oq=castle+rock+west+virginia&gs_lcp=CgNpbWcQARgBMgUIABCABDIGCAAQBxAeOgQIIxAnOggIABAFEAcQHjoICAAQCBAHEB46BggAEAgQHjoGCAAQBRAeUMoIWMgZYM4paABwAHgAgAFdiAG5B5IBAjEymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=aKFBZLnBEbnZkPIPyYiRoAU&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/castle-rock-trail', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <ul>
+                <div id="sample"><p>6. Summersville Lake - Summerville Lake State Wildlife Area</p></div>
+                <button onclick="copyText236();changeColor(this)">Copy</button><br>
+                <img src="hike-images/summerville image.jpg" alt="long point image", height="500">
+                <h7><br>Ben Meadows/ALltrails</h7>
+                <table>
+                    <tr>
+                        <th>Grade: <span id="short">Short</span></th>
+                    </tr>
+                    <tr onclick="window.open('https://www.google.com/search?q=summerville+lake+west+virginia&tbm=isch&ved=2ahUKEwi16ojHp7n-AhUaOkQIHdtwAmgQ2-cCegQIABAA&oq=summerville+lake+west+virginia&gs_lcp=CgNpbWcQAzIJCAAQGBCABBAKOgQIIxAnOgYIABAHEB46CggAEIoFELEDEEM6CAgAEIAEELEDOgUIABCABFCoCVjnJGDxJ2gAcAB4AIABaogBqwySAQQxOS4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=6qFBZLXNFZr0kPIP2-GJwAY&bih=625&biw=1349&hl=en', '_blank', 'noopener');">
+                        <td>More Images</td>
+                    </tr>
+                    <tr onclick="window.open('https://www.alltrails.com/trail/us/west-virginia/summersville-lake-via-orange-oswald', '_blank', 'noopener');">
+                        <td>Trail Link</td>
+                    </tr>
+                </table>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4><span id="short">Short = 1-3 miles<br></span> <span id="moderate">Moderate = 3-7 miles<br></span> <span id="long">Long = 7-13 miles<br></span> <span id="verylong">Very Long = 13+ miles<br></span></h4>
+            <br>
+        </main>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
