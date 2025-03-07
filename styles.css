@@ -719,6 +719,7 @@ body
     img
     {
         width: 97%;
+        height: 100%;
     }
     img[src="images/blh-logo.png"]
     {
